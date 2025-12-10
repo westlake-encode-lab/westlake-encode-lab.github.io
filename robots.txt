@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://westlake-encode-lab.github.io/sitemap.xml
