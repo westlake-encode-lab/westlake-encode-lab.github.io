@@ -512,12 +512,32 @@ nav_order: 2
     <p class="profile-description">BS UESTC</p>
     </div>
   </div>
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/haoyu_shen.png" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Haoyu Shen</h3>
+
+      <div class="profile-social">
+    </div>
+    <p class="profile-description"></p>
+    </div>
+  </div>
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/xianzu_wu.png" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Xianzu Wu</h3>
+
+      <div class="profile-social">
+    </div>
+    <p class="profile-description"></p>
+    </div>
+  </div>
 </div>
 
 ### Others
 
 - **[Huixing Zhu](https://wuyulunbizhouojielun.github.io/)**: BS ZJU
 - **[Qitong Wang](https://wang-qitong.github.io/)**: BS TJUT
-- **Haoyu Shen**
-- **Xianzu Wu**
 - **Fan Wu**
