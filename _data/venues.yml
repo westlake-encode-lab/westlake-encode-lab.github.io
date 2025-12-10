@@ -1,0 +1,59 @@
+# ML Conferences (紫色)
+NeurIPS:
+  color: "#6739B7"
+  textcolor: "#FFFFFF"
+
+ICLR:
+  color: "#6739B7"
+  textcolor: "#FFFFFF"
+
+ICML:
+  color: "#6739B7"
+  textcolor: "#FFFFFF"
+
+# CV Conferences (蓝色)
+CVPR:
+  color: "#02379F"
+  textcolor: "#FFFFFF"
+
+ECCV:
+  color: "#02379F"
+  textcolor: "#FFFFFF"
+
+ECCV Oral:
+  color: "#02379F"
+  textcolor: "#FFFFFF"
+
+ICCV:
+  color: "#02379F"
+  textcolor: "#FFFFFF"
+
+ACM MM:
+  color: "#02379F"
+  textcolor: "#FFFFFF"
+
+# Preprints (红色)
+arXiv:
+  color: "#B31C1B"
+  textcolor: "#FFFFFF"
+
+Preprint:
+  color: "#B31C1B"
+  textcolor: "#FFFFFF"
+
+# Journals (粉色)
+TPAMI:
+  color: "#DB2777"
+  textcolor: "#FFFFFF"
+
+TIP:
+  color: "#DB2777"
+  textcolor: "#FFFFFF"
+
+IJCV:
+  color: "#DB2777"
+  textcolor: "#FFFFFF"
+
+TCSVT:
+  color: "#DB2777"
+  textcolor: "#FFFFFF"
