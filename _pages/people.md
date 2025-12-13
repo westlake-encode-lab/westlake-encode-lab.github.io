@@ -405,18 +405,6 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/kejia_zhang.png" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Kejia Zhang</h3>
-
-      <div class="profile-social">
-      <a href="https://kejiazhang-robust.github.io/homepage" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">MS Xiamen Univ</p>
-    </div>
-  </div>
-  <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/lingcheng_kong.jpg" alt="Profile"/>
     <div class="profile-content">
 
