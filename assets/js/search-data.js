@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Invited talks and seminars at ENCODE Lab",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-gallery",
           title: "Gallery",
           description: "Photos of ENCODE Lab activities and events.",
@@ -71,7 +78,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%77%61%6E%67%68%75%61%6E@%77%65%73%74%6C%61%6B%65.%65%64%75.%63%6E", "_blank");
+          window.open("mailto:%65%6E%63%6F%64%65%6C%61%62@%77%65%73%74%6C%61%6B%65.%65%64%75.%63%6E", "_blank");
         },
       },{
         id: 'social-github',
