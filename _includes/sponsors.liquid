@@ -1,0 +1,62 @@
+<style>
+.sponsors-section {
+  margin-top: 1.5rem;
+}
+
+.sponsors-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem 2.5rem;
+}
+
+.sponsor-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-item img {
+  height: 45px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.sponsor-item img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+  .sponsors-grid {
+    gap: 1rem 1.5rem;
+  }
+  .sponsor-item img {
+    height: 35px;
+    max-width: 160px;
+  }
+}
+</style>
+
+<div class="sponsors-section">
+  <div class="sponsors-grid">
+    <a class="sponsor-item" href="https://www.nsfc.gov.cn/" target="_blank">
+      <img src="{{ '/assets/img/sponsors/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China" title="国家自然科学基金委员会"/>
+    </a>
+    <a class="sponsor-item" href="https://kjt.zj.gov.cn/" target="_blank">
+      <img src="{{ '/assets/img/sponsors/zjst.png' | relative_url }}" alt="Zhejiang Provincial Department of Science and Technology" title="浙江省科学技术厅"/>
+    </a>
+    <a class="sponsor-item" href="https://www.caai.cn/" target="_blank">
+      <img src="{{ '/assets/img/sponsors/caai.png' | relative_url }}" alt="Chinese Association for Artificial Intelligence" title="中国人工智能学会"/>
+    </a>
+    <a class="sponsor-item" href="https://www.antgroup.com/" target="_blank">
+      <img src="{{ '/assets/img/sponsors/ant.png' | relative_url }}" alt="Ant Group" title="蚂蚁集团"/>
+    </a>
+    <a class="sponsor-item" href="https://www.alibabacloud.com/" target="_blank">
+      <img src="{{ '/assets/img/sponsors/alicloud.png' | relative_url }}" alt="Alibaba Cloud" title="阿里云"/>
+    </a>
+  </div>
+</div>

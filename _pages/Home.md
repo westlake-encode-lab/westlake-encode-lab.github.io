@@ -14,6 +14,9 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+sponsors:
+  enabled: true
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -36,4 +39,4 @@ Our research centers on **Efficient AI**, spanning multiple domains in vision an
 - **Snapshot Compressive Imaging**: [[QuantizedSCI](https://github.com/mcao92/QuantizedSCI), [MobileSCI](https://github.com/mcao92/MobileSCI)]
 
 **Join Us:** <br>
-Our lab is actively recruiting **Ph.D. students** (2026 Fall, 1 position), **Research Assistants** (1 position), and **Visiting Students** to work on Efficient AI (e.g., pruning, quantization, distillation), GenAI (e.g., diffusion models, LLM/MLLM), 3D (e.g., NeRF, Gaussian Splatting), low-level vision (e.g., image restoration), etc. We foster a professional, equal, chill, and creative environment with competitive compensation, sufficient computing resources (H800/A100/A800/A6000/4090), and opportunities for academic collaboration and industry internships. Check out the [details](https://zhuanlan.zhihu.com/p/691403133) and fill out [this form](https://encodelab.feishu.cn/share/base/form/shrcnhC3tRR4sPMKlKonhcItEDd) to apply!
+Our lab is actively recruiting **Ph.D. students** (2026 Fall, 1 position), **Research Assistants** (1 position), and **Visiting Students** to work on **Efficient AI**, **Multimodal Systems**, and **Generative AI**. We foster a professional, equal, chill, and creative environment with competitive compensation, sufficient computing resources, and opportunities for academic collaboration and industry internships. Check out the [details](https://zhuanlan.zhihu.com/p/691403133) and fill out [this form](https://encodelab.feishu.cn/share/base/form/shrcnhC3tRR4sPMKlKonhcItEDd), or send your CV to [encodelab@westlake.edu.cn](mailto:encodelab@westlake.edu.cn) to apply!

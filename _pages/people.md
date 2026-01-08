@@ -325,21 +325,6 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/wenjie_du.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Wenjie Du</h3>
-
-      <div class="profile-social">
-      <a href="https://kurt232.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:duwenjie@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?hl=en&user=ZxqE25EAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/kurt232" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">BS SCU <br> Since Jul 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/boya_liao.jpg" alt="Profile"/>
     <div class="profile-content">
 
@@ -352,6 +337,36 @@ nav_order: 2
       <a href="https://github.com/BoyaLiao" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
     <p class="profile-description">MS ZJU <br> Since Jul 2025</p>
+    </div>
+  </div>
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/jia_xu.jpg" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Jia Xu</h3>
+
+      <div class="profile-social">
+      <a href="https://jiaxu0123.github.io/jiaxu/" title="Homepage"><i class="fa-solid fa-house"></i></a>
+      <a href="mailto:aobensss@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=eI3-mToAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/JiaXU0123" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="profile-description">BS BIT <br> Since Jan 2026</p>
+    </div>
+  </div>
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/bin_xu.jpg" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Bin Xu</h3>
+
+      <div class="profile-social">
+      <a href="https://xubin04.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
+      <a href="mailto:xbin@mail.sdu.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=UDiUIGwAAAAJ&hl=zh-TW" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/xubin04" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="profile-description">BS SDU <br> Since Jan 2026</p>
     </div>
   </div>
 </div>
@@ -392,6 +407,20 @@ nav_order: 2
 
 ## Alumni
 <div class="profile-grid grid-3-col">
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/wenjie_du.jpg" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Wenjie Du</h3>
+
+      <div class="profile-social">
+      <a href="https://kurt232.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=ZxqE25EAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/kurt232" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="profile-description">BS SCU</p>
+    </div>
+  </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/hanzhang_shen.jpg" alt="Profile"/>
     <div class="profile-content">
