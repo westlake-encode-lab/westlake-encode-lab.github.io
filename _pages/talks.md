@@ -156,3 +156,20 @@ nav_order: 4
     </div>
   </div>
 </div>
+
+<div class="talk-item">
+  <img class="talk-image" src="../assets/img/talks/ming_hsuan_yang.jpg" alt="Ming-Hsuan Yang"/>
+  <div class="talk-content">
+    <h3 class="talk-title">Recent Results on Multimodal Foundation Models</h3>
+    <p class="talk-speaker">Ming-Hsuan Yang, Professor</p>
+    <p class="talk-affiliation">University of California, Merced</p>
+    <p class="talk-date"><i class="fa-regular fa-calendar"></i> August 9, 2025, 13:30-14:00</p>
+    <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang</p>
+    <p class="talk-abstract">
+      Recent advances in vision and language models have significantly improved visual understanding and generation tasks. In this talk, I will present our latest research on designing effective tokenizers for transformers and our efforts to adapt frozen large language models for diverse vision tasks. These tasks include visual classification, video-text retrieval, visual captioning, visual question answering, visual grounding, video generation, stylization, outpainting, and video-to-audio conversion. If time permits, I will also discuss our recent findings on learning diffusion models and dynamic 3D vision.
+    </p>
+    <div class="talk-links">
+      <a href="https://faculty.ucmerced.edu/mhyang/" title="Homepage"><i class="fa-solid fa-house"></i> Homepage</a>
+    </div>
+  </div>
+</div>
