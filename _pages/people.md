@@ -131,7 +131,6 @@ nav_order: 2
 
       <div class="profile-social">
       <a href="mailto:linxinjun@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://instagram.com/sangwanlam7" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
     </div>
     <p class="profile-description">Administrative Assistant <br> MFA Goldsmiths, BA CAA <br> CSC Scholar 2022</p>
     </div>
