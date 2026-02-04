@@ -73,6 +73,9 @@ ninja.data = [{
           section: "News",},{id: "news-funds-we-received-a-research-grant-from-caai-ant-group-caai-蚂蚁科研基金-thank-you-caai-and-ant-group",
           title: '[Funds] We received a research grant from CAAI-Ant Group (CAAI-蚂蚁科研基金). Thank you, CAAI...',
           description: "",
+          section: "News",},{id: "news-iclr-39-26-four-papers-accepted-congrats-to-our-students-and-collaborators-especially-congrats-to-junhan-zhu-westlake-undergrad-his-first-top-venue-paper-done-in-sophomore-summer-extends-obs-pruning-to-diffusion-models-thanks-to-collaborators-at-zju-casia-and-nus-obs-diff-one-shot-pruning-for-diffusion-models-arxiv-code-mergemix-unified-augmentation-for-visual-and-multi-modal-understanding-arxiv-rewardmap-multi-stage-rl-for-fine-grained-visual-reasoning-arxiv-code-arpg-autoregressive-image-generation-with-randomized-parallel-decoding-arxiv-code",
+          title: '[ICLR&amp;#39;26] Four papers accepted! Congrats to our students and collaborators! Especially congrats to...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
