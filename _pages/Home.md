@@ -29,7 +29,7 @@ latest_posts:
 ---
 
 **About Us:** <br>
-The <span style="color: var(--global-theme-color); font-weight: 500">ENCODE Lab</span> (**E**fficient **N**eural **CO**mputation and **DE**sign) is led by Dr. [Huan Wang](https://huanwang.tech/), a Tenure-Track Assistant Professor in the School of Engineering at [Westlake University](https://en.westlake.edu.cn/faculty/huan-wang.html). We focus on building efficient and reliable AI systems that are scalable and self-improving, driving both theoretical innovation and practical impact.
+The <span style="color: var(--global-theme-color); font-weight: 500">ENCODE Lab</span> (**E**fficient **N**eural **CO**mputing and **DE**sign) is led by Dr. [Huan Wang](https://huanwang.tech/), a Tenure-Track Assistant Professor in the School of Engineering at [Westlake University](https://en.westlake.edu.cn/faculty/huan-wang.html). We focus on building efficient and reliable AI systems that are scalable and self-improving, driving both theoretical innovation and practical impact.
 
 **Research Focus:** <br>
 Our research centers on **Efficient AI**, spanning multiple domains in vision and language:
