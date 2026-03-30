@@ -1,59 +1,73 @@
 # ML Conferences (紫色)
 NeurIPS:
-  color: "#6739B7"
+  color: "#5B21B6"
   textcolor: "#FFFFFF"
 
 ICLR:
-  color: "#6739B7"
+  color: "#5B21B6"
   textcolor: "#FFFFFF"
 
 ICML:
-  color: "#6739B7"
+  color: "#5B21B6"
   textcolor: "#FFFFFF"
 
 # CV Conferences (蓝色)
 CVPR:
-  color: "#02379F"
+  color: "#1D4ED8"
   textcolor: "#FFFFFF"
 
 ECCV:
-  color: "#02379F"
+  color: "#1D4ED8"
   textcolor: "#FFFFFF"
 
 ECCV Oral:
-  color: "#02379F"
+  color: "#1D4ED8"
   textcolor: "#FFFFFF"
 
 ICCV:
-  color: "#02379F"
+  color: "#1D4ED8"
   textcolor: "#FFFFFF"
 
+# Multimedia (青色)
 ACM MM:
-  color: "#02379F"
+  color: "#0891B2"
   textcolor: "#FFFFFF"
 
-# Preprints (红色)
+# Efficient/Sparse Learning (橙色)
+CPAL:
+  color: "#D97706"
+  textcolor: "#FFFFFF"
+
+CPAL Oral:
+  color: "#D97706"
+  textcolor: "#FFFFFF"
+
+# Preprints (arXiv官方红)
 arXiv:
-  color: "#B31C1B"
+  color: "#B31B1B"
   textcolor: "#FFFFFF"
 
 Preprint:
-  color: "#B31C1B"
+  color: "#B31B1B"
   textcolor: "#FFFFFF"
 
-# Journals (粉色)
+# Journals (绿色)
+TMLR:
+  color: "#059669"
+  textcolor: "#FFFFFF"
+
 TPAMI:
-  color: "#DB2777"
+  color: "#059669"
   textcolor: "#FFFFFF"
 
 TIP:
-  color: "#DB2777"
+  color: "#059669"
   textcolor: "#FFFFFF"
 
 IJCV:
-  color: "#DB2777"
+  color: "#059669"
   textcolor: "#FFFFFF"
 
 TCSVT:
-  color: "#DB2777"
+  color: "#059669"
   textcolor: "#FFFFFF"

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-`[Funds]` We received a research grant from CAAI-Ant Group (CAAI-蚂蚁科研基金). Thank you, CAAI and Ant Group!
+`[Funding]` Grateful to receive the CAAI & Ant Group Research Fund (CAAI-蚂蚁科研基金). Thanks to CAAI and Ant Group for the support!

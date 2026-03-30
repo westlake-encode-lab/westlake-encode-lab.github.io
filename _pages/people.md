@@ -98,6 +98,32 @@ nav_order: 2
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+
+/* 纯文字列表样式 */
+.text-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.text-list li {
+  padding: 0.35rem 0;
+  font-size: 0.95rem;
+  break-inside: avoid;
+}
+
+.text-list li .dest {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 576px) {
+  .text-list {
+    columns: 1;
+  }
+}
 </style>
 
 ## Principal Investigator
@@ -116,12 +142,12 @@ nav_order: 2
         <a href="https://www.linkedin.com/in/huanwangx" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://twitter.com/huanwangx" title="X"><i class="fa-brands fa-x-twitter"></i></a>
       </div>
-      <p class="profile-description">Assistant Professor <br> PhD NEU, MS & BS ZJU</p>
+      <p class="profile-description">Assistant Professor <br> PhD@NEU, MS&BS@ZJU</p>
     </div>
   </div>
 </div>
 
-## Administrative & Research Staff
+## Administrative & Postdoc Staff
 <div class="profile-grid grid-3-col">
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/xinjun_lin.jpg" alt="Profile"/>
@@ -132,7 +158,7 @@ nav_order: 2
       <div class="profile-social">
       <a href="mailto:linxinjun@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
     </div>
-    <p class="profile-description">Administrative Assistant <br> MFA Goldsmiths, BA CAA <br> CSC Scholar 2022</p>
+    <p class="profile-description">Administrative Assistant <br> MFA@Goldsmiths, BA@CAA</p>
     </div>
   </div>
   <div class="profile-item">
@@ -146,7 +172,7 @@ nav_order: 2
       <a href="mailto:liying06@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=jIkHgFAAAAAJ&hl" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     </div>
-    <p class="profile-description">Postdoc Researcher <br> PhD SJTU <br> Since Jan 2025</p>
+    <p class="profile-description">Postdoc Researcher <br> PhD@SJTU, Since Jan 2025</p>
     </div>
   </div>
   <div class="profile-item">
@@ -161,42 +187,10 @@ nav_order: 2
       <a href="https://scholar.google.com.hk/citations?user=-9lGlGwAAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://github.com/Simmy-X" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="profile-description">Postdoc Researcher <br> PhD SJTU <br> Since Feb 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xin_jin.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Xin Jin</h3>
-
-      <div class="profile-social">
-      <a href="https://jinxins.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:jinxin86@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/JinXins" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">Research Assistant <br> MS CTBU, BS CTBU <br> Since Jun 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/chun_yang.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Chun Yang</h3>
-
-      <div class="profile-social">
-      <a href="https://chuny9743.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:yangchun@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?hl=zh-CN&user=D_pszsIAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/chuny9743" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">Research Assistant <br> BE BIT <br> Since Oct 2025</p>
+    <p class="profile-description">Postdoc Researcher <br> PhD@SJTU, Since Feb 2025</p>
     </div>
   </div>
 </div>
-
-[//]: # (按照加入时间顺序排序)
 
 ## PhD Students
 
@@ -213,7 +207,7 @@ nav_order: 2
       <a href="https://scholar.google.com/citations?user=f4-ER1kAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://github.com/cokeshao" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="profile-description">Fall 2025 - <br> BS ZJU</p>
+    <p class="profile-description">Fall 2025 - <br> BS@ZJU</p>
     </div>
   </div>
   <div class="profile-item">
@@ -228,7 +222,7 @@ nav_order: 2
       <a href="https://scholar.google.com/citations?user=ek8xaLUAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://github.com/KD-TAO" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="profile-description">Fall 2025 - <br> BS XDU</p>
+    <p class="profile-description">Fall 2025 - <br> BS@XDU</p>
     </div>
   </div>
   <div class="profile-item">
@@ -242,7 +236,7 @@ nav_order: 2
       <a href="mailto:viridisgreen27@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://github.com/viridisGreen" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="profile-description">Fall 2025 - <br> BS BUPT</p>
+    <p class="profile-description">Fall 2025 - <br> BS@BUPT</p>
     </div>
   </div>
   <div class="profile-item">
@@ -257,11 +251,11 @@ nav_order: 2
       <a href="https://scholar.google.com.hk/citations?user=OEGnyD8AAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://github.com/sunshine-0903" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="profile-description">Fall 2026 - <br> MS Beihang, BS NWPU</p>
+    <p class="profile-description">Fall 2026 - <br> MS@Beihang <br> BS@NWPU</p>
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xueyi_chen.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/xueyi_chen.png" alt="Profile"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Xueyi Chen</h3>
@@ -272,288 +266,85 @@ nav_order: 2
       <a href="https://scholar.google.com/citations?user=SfLuBt8AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://github.com/YIGE24" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="profile-description">Fall 2026 - <br> MS CUHK, BS FZU</p>
+    <p class="profile-description">Fall 2026 - <br> MS@CUHK <br> BS@FZU</p>
     </div>
   </div>
 </div>
+
+## Research Assistants
+<div class="profile-grid grid-3-col">
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/xin_jin.jpg" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Xin Jin</h3>
+
+      <div class="profile-social">
+      <a href="https://jinxins.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
+      <a href="mailto:jinxin86@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/JinXins" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="profile-description">MS&BS@CTBU <br> Since Jun 2025</p>
+    </div>
+  </div>
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/chun_yang.jpg" alt="Profile"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Chun Yang</h3>
+
+      <div class="profile-social">
+      <a href="https://chuny9743.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
+      <a href="mailto:yangchun@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=D_pszsIAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/chuny9743" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="profile-description">BS@BIT <br> Since Oct 2025</p>
+    </div>
+  </div>
+</div>
+
+<ul class="text-list">
+  <li><strong>Shikang Zhang</strong></li>
+  <li><strong>Jinhao Sheng</strong></li>
+</ul>
 
 ## Visiting Students
-<div class="profile-grid grid-3-col">
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/haolei_bai.jpg" alt="Profile"/>
-    <div class="profile-content">
 
-      <h3 class="profile-name">Haolei Bai</h3>
-
-      <div class="profile-social">
-      <a href="https://deadlykitten4.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:baih12264@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=CGh99DUAAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/deadlykitten4" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">MS NTU <br> Since Jan 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/zefang_wang.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Zefang Wang</h3>
-
-      <div class="profile-social">
-      <a href="https://aden9460.github.io/Zefang-Wang/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:wangzefang@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=95e7tCgAAAAJ&hl=zh-CN&authuser=2" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/aden9460" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">MS ZJU <br> Since Mar 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/siyong_jian.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Siyong Jian</h3>
-
-      <div class="profile-social">
-      <a href="https://syjmelody.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:syjian5@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://github.com/syjmelody" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">MS NJU <br> Since Feb 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/boya_liao.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Boya Liao</h3>
-
-      <div class="profile-social">
-      <a href="https://boyaliao.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:bursonliao@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=xdWZc2YAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/BoyaLiao" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">MS ZJU <br> Since Jul 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/jia_xu.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Jia Xu</h3>
-
-      <div class="profile-social">
-      <a href="https://jiaxu0123.github.io/jiaxu/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:aobensss@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=eI3-mToAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/JiaXU0123" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">BS BIT <br> Since Jan 2026</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/bin_xu.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Bin Xu</h3>
-
-      <div class="profile-social">
-      <a href="https://xubin04.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:xbin@mail.sdu.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=UDiUIGwAAAAJ&hl=zh-TW" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/xubin04" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">BS SDU <br> Since Jan 2026</p>
-    </div>
-  </div>
-</div>
-
-## Undergraduate Students
-
-<div class="profile-grid grid-3-col">
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/junhan_zhu.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Junhan Zhu</h3>
-
-      <div class="profile-social">
-      <a href="https://alrightlone.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:zhujunhan@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?hl=en&user=kWEQRU0AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/Alrightlone" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">Fall 2023 - <br> EIE</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/zhenyu_xv.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Zhenyu Xu</h3>
-
-      <div class="profile-social">
-      <a href="https://xzy8806-beep.github.io/zhenyuxu/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:xuzhenyu@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://github.com/xzy8806-beep/zhenyuxu" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">Fall 2025 - <br> AI</p>
-    </div>
-  </div>
-</div>
+<ul class="text-list">
+  <li><strong>Youssef Ahmed</strong> <span class="dest">BS@Westlake</span></li>
+  <li><strong><a href="https://deadlykitten4.github.io/">Haolei Bai</a></strong> <span class="dest">MS@NTU</span></li>
+  <li><strong>Wenrui Bao</strong> <span class="dest">MS@NTU</span></li>
+  <li><strong>Zixu Wang</strong></li>
+  <li><strong>Yikai Yang</strong> <span class="dest">MS@ZJU</span></li>
+  <li><strong><a href="https://pillor9.github.io/">Yuhua Zheng</a></strong> <span class="dest">BS@ZJU</span></li>
+  <li><strong>Wenxi Zhu</strong> <span class="dest">BS@Westlake</span></li>
+</ul>
 
 ## Alumni
-<div class="profile-grid grid-3-col">
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/wenjie_du.jpg" alt="Profile"/>
-    <div class="profile-content">
 
-      <h3 class="profile-name">Wenjie Du</h3>
-
-      <div class="profile-social">
-      <a href="https://kurt232.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="https://scholar.google.com/citations?hl=en&user=ZxqE25EAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/kurt232" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">BS SCU</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/hanzhang_shen.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Hanzhang Shen</h3>
-
-      <div class="profile-social">
-      <a href="https://hanzhangshen03.github.io" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS Cambridge <br> SWE Intern at Meta</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/lingcheng_kong.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Lingcheng Kong</h3>
-
-      <div class="profile-social">
-      <a href="https://www.linkedin.com/in/lingcheng-kong-443624303" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-    <p class="profile-description">BS HKUST</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/rongfu_bai.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Rongfu Bai</h3>
-
-      <div class="profile-social">
-      <a href="https://www.linkedin.com/in/brf7" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-    <p class="profile-description">BS XJTU</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/yufan_zhou.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Yufan Zhou</h3>
-
-      <div class="profile-social">
-      <a href="https://wiserzhou.github.io" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS HIT</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/zhenyu_sun.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Zhenyu Sun</h3>
-
-      <div class="profile-social">
-      <a href="https://zhenyusun-walker.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS SCUT</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/sicheng_feng.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Sicheng Feng</h3>
-
-      <div class="profile-social">
-      <a href="https://fscdc.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS NKU</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/zhenxin_ai.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Zhenxin Ai</h3>
-
-      <div class="profile-social">
-      <a href="https://ai-kunkun.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS JXUST</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/kaiwen_tuo.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Kaiwen Tuo</h3>
-
-      <div class="profile-social">
-      <a href="https://cfintech.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS Tongji</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/jiaxuan_ren.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Jiaxuan Ren</h3>
-
-      <div class="profile-social">
-      <a href="https://xuan9-9.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-    </div>
-    <p class="profile-description">BS UESTC</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/haoyu_shen.png" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Haoyu Shen</h3>
-
-      <div class="profile-social">
-    </div>
-    <p class="profile-description"></p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xianzu_wu.png" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Xianzu Wu</h3>
-
-      <div class="profile-social">
-    </div>
-    <p class="profile-description"></p>
-    </div>
-  </div>
-</div>
-
-### Others
-
-- **[Huixing Zhu](https://wuyulunbizhouojielun.github.io/)**: BS ZJU
-- **[Qitong Wang](https://wang-qitong.github.io/)**: BS TJUT
-- **Fan Wu**
+<ul class="text-list">
+  <li><strong><a href="https://ai-kunkun.github.io/">Zhenxin Ai</a></strong> <span class="dest">BS@JXUST</span></li>
+  <li><strong>Rongfu Bai</strong> <span class="dest">BS@XJTU</span></li>
+  <li><strong><a href="https://kurt232.github.io/">Wenjie Du</a></strong> <span class="dest">BS@SCU → MS@NTU</span></li>
+  <li><strong><a href="https://fscdc.github.io/">Sicheng Feng</a></strong> <span class="dest">BS@NKU → PhD@NUS</span></li>
+  <li><strong><a href="https://syjmelody.github.io/">Siyong Jian</a></strong> <span class="dest">MS@NJU</span></li>
+  <li><strong><a href="https://www.linkedin.com/in/lingcheng-kong-443624303">Lingcheng Kong</a></strong> <span class="dest">BS@HKUST</span></li>
+  <li><strong><a href="https://hp-l33.github.io/">Haopeng Li</a></strong> <span class="dest">BS@BUPT → MS@HKUST(GZ)</span></li>
+  <li><strong><a href="https://boyaliao.github.io/">Boya Liao</a></strong> <span class="dest">MS@ZJU → PhD@UMN</span></li>
+  <li><strong><a href="https://ddsacu.github.io/">Zhizhen Pan</a></strong> <span class="dest">BS@BUPT</span></li>
+  <li><strong><a href="https://xuan9-9.github.io/">Jiaxuan Ren</a></strong> <span class="dest">BS@UESTC</span></li>
+  <li><strong><a href="https://hanzhangshen03.github.io">Hanzhang Shen</a></strong> <span class="dest">BS@Cambridge</span></li>
+  <li><strong>Haoyu Shen</strong></li>
+  <li><strong><a href="https://zhenyusun-walker.github.io/">Zhenyu Sun</a></strong> <span class="dest">BS@SCUT → PhD@SJTU</span></li>
+  <li><strong><a href="https://cfintech.github.io/">Kaiwen Tuo</a></strong> <span class="dest">BS@Tongji → PhD@HKUST</span></li>
+  <li><strong><a href="https://aden9460.github.io/Zefang-Wang/">Zefang Wang</a></strong> <span class="dest">MS@ZJU</span></li>
+  <li><strong>Qitong Wang</strong></li>
+  <li><strong>Fan Wu</strong></li>
+  <li><strong><a href="https://xianzuwu.github.io/">Xianzu Wu</a></strong></li>
+  <li><strong><a href="https://jiaxu0123.github.io/jiaxu/">Jia Xu</a></strong> <span class="dest">BS@BIT</span></li>
+  <li><strong><a href="https://wiserzhou.github.io">Yufan Zhou</a></strong> <span class="dest">BS@HIT</span></li>
+  <li><strong><a href="https://alrightlone.github.io/">Junhan Zhu</a></strong> <span class="dest">BS@Westlake</span></li>
+  <li><strong><a href="https://wuyulunbizhouojielun.github.io/">Huixing Zhu</a></strong> <span class="dest">BS@ZJU → MS@ZJU</span></li>
+</ul>

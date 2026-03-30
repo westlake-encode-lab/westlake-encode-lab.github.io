@@ -3,13 +3,14 @@
   margin-top: 1.5rem;
 }
 
-.sponsors-grid {
+.sponsors-row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 1.5rem 2.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .sponsor-item {
@@ -31,7 +32,8 @@
 }
 
 @media (max-width: 576px) {
-  .sponsors-grid {
+  .sponsors-row {
+    flex-wrap: wrap;
     gap: 1rem 1.5rem;
   }
   .sponsor-item img {
@@ -42,7 +44,7 @@
 </style>
 
 <div class="sponsors-section">
-  <div class="sponsors-grid">
+  <div class="sponsors-row">
     <a class="sponsor-item" href="https://www.nsfc.gov.cn/" target="_blank">
       <img src="{{ '/assets/img/sponsors/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China" title="国家自然科学基金委员会"/>
     </a>
@@ -52,6 +54,8 @@
     <a class="sponsor-item" href="https://www.caai.cn/" target="_blank">
       <img src="{{ '/assets/img/sponsors/caai.png' | relative_url }}" alt="Chinese Association for Artificial Intelligence" title="中国人工智能学会"/>
     </a>
+  </div>
+  <div class="sponsors-row" style="margin-bottom: 0;">
     <a class="sponsor-item" href="https://www.antgroup.com/" target="_blank">
       <img src="{{ '/assets/img/sponsors/ant.png' | relative_url }}" alt="Ant Group" title="蚂蚁集团"/>
     </a>

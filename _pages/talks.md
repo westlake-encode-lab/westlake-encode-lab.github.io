@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 description: Invited talks and seminars at ENCODE Lab
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <style>
@@ -122,7 +122,7 @@ nav_order: 4
 </div>
 
 <div class="talk-item">
-  <img class="talk-image" src="../assets/img/talks/mayi.png" alt="Yi Ma"/>
+  <img class="talk-image" src="../assets/img/talks/yi_ma.png" alt="Yi Ma"/>
   <div class="talk-content">
     <h3 class="talk-title">Pursuing the Nature of Intelligence</h3>
     <p class="talk-speaker">Yi Ma, Chair Professor</p>

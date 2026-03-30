@@ -52,30 +52,32 @@ ninja.data = [
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- for post in site.posts -%}
-    {
-      {%- assign title = post.title | escape | strip -%}
-      id: "post-{{ title | slugify }}",
-      {% if post.redirect == blank %}
-        title: "{{ title | truncatewords: 13 }}",
-      {% elsif post.redirect contains '://' %}
-        title: '{{ title | truncatewords: 13 }} <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      {% else %}
-        title: "{{ title | truncatewords: 13 }}",
-      {% endif %}
-      description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
-      section: "Posts",
-      handler: () => {
+  {%- if site.posts_in_search -%}
+    {%- for post in site.posts -%}
+      {
+        {%- assign title = post.title | escape | strip -%}
+        id: "post-{{ title | slugify }}",
         {% if post.redirect == blank %}
-          window.location.href = "{{ post.url | relative_url }}";
+          title: "{{ title | truncatewords: 13 }}",
         {% elsif post.redirect contains '://' %}
-          window.open("{{ post.redirect }}", "_blank");
+          title: '{{ title | truncatewords: 13 }} <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         {% else %}
-          window.location.href = "{{ post.redirect | relative_url }}";
+          title: "{{ title | truncatewords: 13 }}",
         {% endif %}
+        description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
+        section: "Posts",
+        handler: () => {
+          {% if post.redirect == blank %}
+            window.location.href = "{{ post.url | relative_url }}";
+          {% elsif post.redirect contains '://' %}
+            window.open("{{ post.redirect }}", "_blank");
+          {% else %}
+            window.location.href = "{{ post.redirect | relative_url }}";
+          {% endif %}
+        },
       },
-    },
-  {%- endfor -%}
+    {%- endfor -%}
+  {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
       {%- for item in collection.docs -%}
@@ -105,6 +107,10 @@ ninja.data = [
           {%- assign social_id = "social-acm" -%}
           {%- assign social_title = "ACM DL" -%}
           {%- capture social_url %}"https://dl.acm.org/profile/{{ social[1] }}/"{% endcapture -%}
+        {%- when "arxiv_id" -%}
+          {%- assign social_id = "social-arxiv" -%}
+          {%- assign social_title = "arXiv" -%}
+          {%- capture social_url %}"https://arxiv.org/a/{{ social[1] }}.html"{% endcapture -%}
         {%- when "blogger_url" -%}
           {%- assign social_id = "social-blogger" -%}
           {%- assign social_title = "Blogger" -%}
@@ -113,6 +119,10 @@ ninja.data = [
           {%- assign social_id = "social-bluesky" -%}
           {%- assign social_title = "Bluesky" -%}
           {%- capture social_url %}"{{ social[1] }}"{% endcapture -%}
+        {%- when "cv_pdf" -%}
+          {%- assign social_id = "social-cv" -%}
+          {%- assign social_title = "CV" -%}
+          {%- capture social_url %}"{{ social[1] | relative_url }}"{% endcapture -%}
         {%- when "dblp_url" -%}
           {%- assign social_id = "social-dblp" -%}
           {%- assign social_title = "DBLP" -%}
@@ -141,6 +151,10 @@ ninja.data = [
           {%- assign social_id = "social-gitlab" -%}
           {%- assign social_title = "GitLab" -%}
           {%- capture social_url %}"https://gitlab.com/{{ social[1] }}"{% endcapture -%}
+        {%- when "hal_id" -%}
+          {%- assign social_id = "social-hal" -%}
+          {%- assign social_title = "HAL" -%}
+          {%- capture social_url %}"https://cv.hal.science/{{ social[1] }}"{% endcapture -%}
         {%- when "ieee_id" -%}
           {%- assign social_id = "social-ieee" -%}
           {%- assign social_title = "IEEE Xplore" -%}
@@ -168,7 +182,7 @@ ninja.data = [
         {%- when "lattes_id" -%}
           {%- assign social_id = "social-lattes" -%}
           {%- assign social_title = "Lattes" -%}
-          {%- capture social_url %}"http://lattes.cnpq.br/{{ social[1] }}"{% endcapture -%}
+          {%- capture social_url %}"https://lattes.cnpq.br/{{ social[1] }}"{% endcapture -%}
         {%- when "leetcode_id" -%}
           {%- assign social_id = "social-leetcode" -%}
           {%- assign social_title = "LeetCode" -%}

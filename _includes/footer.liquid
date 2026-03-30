@@ -1,11 +1,13 @@
 {% capture footer_contents %}
   &copy; Copyright {{ site.time | date: '%Y' }}
-  ENCODE Lab. {{ site.footer_text }}
+  {{ site.first_name }}
+  {{ site.middle_name }}
+  {{ site.last_name }}. {{ site.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
   {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%Y/%m/%d' }}.
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
 {% endcapture %}
 

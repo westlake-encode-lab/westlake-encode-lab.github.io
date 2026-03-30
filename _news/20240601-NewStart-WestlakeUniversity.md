@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-`[New Start]` Our lab is established! Prof. Huan Wang joins [Westlake University](https://www.westlake.edu.cn/) as a tenure-track assistant professor.
+`[New Start]` Our lab is established! Dr. Huan Wang joins [Westlake University](https://www.westlake.edu.cn/) as a tenure-track assistant professor.
