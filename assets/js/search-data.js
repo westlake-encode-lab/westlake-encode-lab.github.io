@@ -71,6 +71,9 @@ ninja.data = [{
           section: "News",},{id: "news-cvpr-39-26-six-papers-accepted-to-cvpr-2026-congrats-to-keda-omnizip-xueyi-streamingtom-sicheng-reasonmap-hesong-earlytom-boya-pjd-zhizhen-qvggt-and-all-collaborators",
           title: '[CVPR&amp;#39;26] Six papers accepted to CVPR 2026! Congrats to Keda (OmniZip), Xueyi (StreamingTOM),...',
           description: "",
+          section: "News",},{id: "news-icml-39-26-four-papers-accepted-to-icml-2026-congrats-to-ying-arc-decode-amp-amp-prism-moe-wenjie-rlkv-kaiwen-sparsessm-and-all-collaborators",
+          title: '[ICML&amp;#39;26] Four papers accepted to ICML 2026! Congrats to Ying (ARC-Decode &amp;amp;amp; Prism-MoE),...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
