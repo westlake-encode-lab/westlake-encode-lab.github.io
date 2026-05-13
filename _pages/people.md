@@ -175,21 +175,6 @@ nav_order: 2
     <p class="profile-description">Postdoc Researcher <br> PhD@SJTU, Since Jan 2025</p>
     </div>
   </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/simin_xu.jpg" alt="Profile"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Simin Xu</h3>
-
-      <div class="profile-social">
-      <a href="https://simmy-x.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:xusimin@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com.hk/citations?user=-9lGlGwAAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/Simmy-X" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">Postdoc Researcher <br> PhD@SJTU, Since Feb 2025</p>
-    </div>
-  </div>
 </div>
 
 ## PhD Students
@@ -344,6 +329,7 @@ nav_order: 2
   <li><strong>Fan Wu</strong></li>
   <li><strong><a href="https://xianzuwu.github.io/">Xianzu Wu</a></strong></li>
   <li><strong><a href="https://jiaxu0123.github.io/jiaxu/">Jia Xu</a></strong> <span class="dest">BS@BIT</span></li>
+  <li><strong><a href="https://simmy-x.github.io/">Simin Xu</a></strong></li>
   <li><strong><a href="https://wiserzhou.github.io">Yufan Zhou</a></strong> <span class="dest">BS@HIT</span></li>
   <li><strong><a href="https://alrightlone.github.io/">Junhan Zhu</a></strong> <span class="dest">BS@Westlake</span></li>
   <li><strong><a href="https://wuyulunbizhouojielun.github.io/">Huixing Zhu</a></strong> <span class="dest">BS@ZJU → MS@ZJU</span></li>

@@ -4,16 +4,16 @@ NeurIPS:
   textcolor: "#FFFFFF"
 
 ICLR:
-  color: "#5B21B6"
+  color: "#9333EA"
   textcolor: "#FFFFFF"
 
 ICML:
-  color: "#5B21B6"
+  color: "#DB2777"
   textcolor: "#FFFFFF"
 
 # CV Conferences (蓝色)
 CVPR:
-  color: "#1D4ED8"
+  color: "#6366F1"
   textcolor: "#FFFFFF"
 
 ECCV:
@@ -25,7 +25,7 @@ ECCV Oral:
   textcolor: "#FFFFFF"
 
 ICCV:
-  color: "#1D4ED8"
+  color: "#1E3A8A"
   textcolor: "#FFFFFF"
 
 # Multimedia (青色)
