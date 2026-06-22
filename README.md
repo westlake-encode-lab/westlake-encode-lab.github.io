@@ -37,6 +37,7 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Academics</td>
 <td>
+<a href="https://pranavraj575.github.io" target="_blank">★</a>
 <a href="https://martinbulla.github.io" target="_blank">★</a>
 <a href="https://maruan.alshedivat.com" target="_blank">★</a>
 <a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
@@ -44,7 +45,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://platanios.org" target="_blank">★</a>
 <a href="https://otiliastr.github.io" target="_blank">★</a>
 <a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
-<a href="https://jessachandler.com/" target="_blank">★</a>
 <a href="https://mayankm96.github.io/" target="_blank">★</a>
 <a href="https://markdean.info/" target="_blank">★</a>
 <a href="https://kakodkar.github.io/" target="_blank">★</a>
@@ -58,18 +58,17 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://andreea7b.github.io/" target="_blank">★</a>
 <a href="https://rishabhjoshi.github.io/" target="_blank">★</a>
 <a href="https://sheelabhadra.github.io/" target="_blank">★</a>
-<a href="https://giograno.me/" target="_blank">★</a>
+<a href="https://giograno.com/" target="_blank">★</a>
 <a href="https://immsrini.github.io/" target="_blank">★</a>
 <a href="https://apooladian.github.io/" target="_blank">★</a>
 <a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
 <a href="https://liamcli.com/" target="_blank">★</a>
 <a href="https://yoonholee.com/" target="_blank">★</a>
-<a href="https://zrqiao.github.io/" target="_blank">★</a>
 <a href="https://abstractgeek.github.io/" target="_blank">★</a>
 <a href="https://www.compphys.de/" target="_blank">★</a>
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
-<a href="https://niweera.gq" target="_blank">★</a>
+<a href="https://niweera.com/" target="_blank">★</a>
 <a href="https://www.alihkw.com" target="_blank">★</a>
 <a href="https://amirpourmand.ir" target="_blank">★</a>
 <a href="https://scottleechua.github.io" target="_blank">★</a>
@@ -106,7 +105,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://bajinsheng.github.io/" target="_blank">★</a>
 <a href="https://www.silviofanzon.com/" target="_blank">★</a>
 <a href="https://kaikaiyao.github.io/" target="_blank">★</a>
-<a href="https://alchemz.github.io/" target="_blank">★</a>
+<a href="https://lilyzhng.github.io/" target="_blank">★</a>
 <a href="https://samadamday.com/" target="_blank">★</a>
 <a href="https://fanpu.io/" target="_blank">★</a>
 <a href="https://abigalekim.github.io/" target="_blank">★</a>
@@ -127,8 +126,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.zhivotenko.com/" target="_blank">★</a>
 <a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
 <a href="https://aadityaura.github.io/" target="_blank">★</a>
-<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
-<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
+<a href="https://roydipta.com/" target="_blank">★</a>
 <a href="https://astanziola.github.io" target="_blank">★</a>
 <a href="https://tinkerer.in" target="_blank">★</a>
 <a href="https://afraniomelo.github.io/en/" target="_blank">★</a>
@@ -139,7 +137,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://ztjona.github.io/" target="_blank">★</a>
 <a href="https://chrischoi314.github.io" target="_blank">★</a>
 <a href="https://riccobelli.faculty.polimi.it" target="_blank">★</a>
-<a href="https://kishanved.tech/" target="_blank">★</a>
+<a href="https://kishan-ved.github.io/portfolio/" target="_blank">★</a>
 <a href="https://abhilesh.github.io/" target="_blank">★</a>
 <a href="https://jackjburnett.github.io/" target="_blank">★</a>
 <a href="https://physics-morris.github.io/" target="_blank">★</a>
@@ -147,13 +145,10 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://acad.garywei.dev/" target="_blank">★</a>
 <a href="https://tonideleo.github.io/" target="_blank">★</a>
 <a href="https://alonkellner.com/" target="_blank">★</a>
-<a href="https://berylbir.github.io/" target="_blank">★</a>
-<a href="https://global-anomaly.github.io/" target="_blank">★</a>
 <a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
 <a href="https://hdocmsu.github.io/" target="_blank">★</a>
 <a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
-<a href="https://kinghowler.github.io/" target="_blank">★</a>
-<a href="https://anurye.github.io/" target="_blank">★</a>
+<a href="https://mumarshahbaz.com/" target="_blank">★</a>
 <a href="https://charlie-xiao.github.io/" target="_blank">★</a>
 <a href="https://giuseppeperelli.github.io/" target="_blank">★</a>
 <a href="https://shlee-lab.github.io/" target="_blank">★</a>
@@ -172,7 +167,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://freifrauvonbleifrei.github.io/" target="_blank">★</a>
 <a href="https://thomasbourke1.github.io/" target="_blank">★</a>
 <a href="https://siddharthsule.com/" target="_blank">★</a>
-<a href="https://waynexucn.github.io/" target="_blank">★</a>
+<a href="https://wenjiexu.site/" target="_blank">★</a>
 <a href="https://zlatanajanovic.com/" target="_blank">★</a>
 <a href="https://mchadolias.github.io/" target="_blank">★</a>
 <a href="https://syanyong.github.io/" target="_blank">★</a>
@@ -184,12 +179,13 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://laurajul.github.io/" target="_blank">★</a>
 <a href="https://vud.org" target="_blank">★</a>
 <a href="https://www.byeongsc.com/" target="_blank">★</a>
+<a href="https://deden.id/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
 <td>Labs</td>
 <td>
-<a href="https://www.haylab.caltech.edu/" target="_blank">★</a>
+<a href="https://haylab.caltech.edu/" target="_blank">★</a>
 <a href="https://sjkimlab.github.io/" target="_blank">★</a>
 <a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
@@ -227,7 +223,8 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
 Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>) <br>
 Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>) <br>
-Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a href="https://spigmworkshop.github.io/" target="_blank">2023</a>, <a href="https://spigmworkshop2024.github.io/" target="_blank">2024</a>)
+Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a href="https://spigmworkshop.github.io/" target="_blank">2023</a>, <a href="https://spigmworkshop2024.github.io/" target="_blank">2024</a>) <br>
+Workshop on Foundation and Generative Models in Biometrics (<a href="https://foundgen-bio.github.io/iccv2025/" target="_blank">ICCV 2025</a>, <a href="https://foundgen-bio.github.io/cvpr2026/" target="_blank">CVPR 2026</a>)
 </td>
 </tr>
 </table>
@@ -259,9 +256,11 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Getting started](#getting-started)
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
-  - [GitHub Copilot Agents](#github-copilot-agents)
-    - [Customization Agent](#customization-agent)
-    - [Documentation Agent](#documentation-agent)
+  - [Plugin Ecosystem](#plugin-ecosystem)
+  - [Using AI Agents](#using-ai-agents)
+    - [Codex](#codex)
+    - [Claude](#claude)
+    - [Copilot And Other Agents](#copilot-and-other-agents)
   - [Documentation](#documentation)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
@@ -305,57 +304,87 @@ When creating your own website with al-folio, you have two options:
 2. When pushing changes, always verify you're pushing to **your own repository**, not the main al-folio repository
 3. Never create pull requests to `alshedivat/al-folio` unless you're intentionally contributing improvements that benefit all users
 
-For quick setup, see [QUICKSTART.md](QUICKSTART.md).
+For quick setup, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
 
 ## Installing and Deploying
 
-For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
+For installation and deployment details please refer to [docs/INSTALL.md](docs/INSTALL.md).
 
 ## Customizing
 
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
+For customization details please refer to [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
-## GitHub Copilot Agents
+## Plugin Ecosystem
 
-This repository includes two specialized GitHub Copilot agents to enhance your development experience:
+`al-folio` is a thin starter in `v1.x`. Runtime features are plugin-owned and published as Ruby gems.
 
-### Customization Agent
+- Ownership boundaries: [docs/BOUNDARIES.md](docs/BOUNDARIES.md)
+- Plugin catalog metadata: [`_data/featured_plugins.yml`](_data/featured_plugins.yml)
+- Plugin catalog page source: [`_pages/plugins.md`](_pages/plugins.md)
 
-The **Customization Agent** helps you personalize your al-folio website by:
+Naming convention:
 
-- Guiding you through configuration changes step-by-step
-- Modifying files directly in your repository
-- Explaining technical concepts in plain language (great for users without coding experience)
-- Assisting with common tasks like updating your CV, adding publications, creating blog posts, and customizing themes
+- Theme-coupled plugins use `al-folio-<feature>` repos and `al_folio_<feature>` gem/plugin ids.
+- Reusable plugins can use `al-<feature>` or neutral naming.
 
-See [CUSTOMIZE.md § GitHub Copilot Customization Agent](CUSTOMIZE.md#github-copilot-customization-agent) for detailed usage instructions.
+Featured plugins and bundled starter plugins are different tracks. Bundling requires explicit updates to [Gemfile](Gemfile) and [\_config.yml](_config.yml).
+Plugin-owned changes should be made in the owning `al-org-dev` plugin repository, not by copying runtime assets into this starter.
+The bundled v1 plugin repos are:
 
-### Documentation Agent
+- [`al-folio-core`](https://github.com/al-org-dev/al-folio-core): shared layouts, includes, style/runtime primitives, and upgrade contracts
+- [`al-folio-cv`](https://github.com/al-org-dev/al-folio-cv): CV rendering
+- [`al-folio-distill`](https://github.com/al-org-dev/al-folio-distill): Distill layouts and runtime assets
+- [`al-folio-bootstrap-compat`](https://github.com/al-org-dev/al-folio-bootstrap-compat): temporary Bootstrap compatibility runtime
+- [`al-folio-upgrade`](https://github.com/al-org-dev/al-folio-upgrade): v1 upgrade audit/report/codemods
+- [`al-icons`](https://github.com/al-org-dev/al-icons): icon loading
+- [`al-search`](https://github.com/al-org-dev/al-search): search runtime
+- [`al-citations`](https://github.com/al-org-dev/al-citations): publication/citation helpers
+- [`al-ext-posts`](https://github.com/al-org-dev/al-ext-posts): external post ingestion
+- [`al-analytics`](https://github.com/al-org-dev/al-analytics), [`al-comments`](https://github.com/al-org-dev/al-comments), [`al-cookie`](https://github.com/al-org-dev/al-cookie), [`al-img-tools`](https://github.com/al-org-dev/al-img-tools), [`al-math`](https://github.com/al-org-dev/al-math), [`al-charts`](https://github.com/al-org-dev/al-charts), and [`al-newsletter`](https://github.com/al-org-dev/al-newsletter): feature-specific runtime and integration behavior
 
-The **Documentation Agent** maintains clear and up-to-date project documentation by:
+## Using AI Agents
 
-- Updating documentation files when features change
-- Writing in a style accessible to academics and researchers
-- Keeping documentation synchronized with the codebase
-- Following documentation best practices
+`al-folio` v1.x is designed for agent-assisted setup and migration. Agents should read [AGENTS.md](AGENTS.md) first, then use [docs/BOUNDARIES.md](docs/BOUNDARIES.md) to route changes to the starter or the owning plugin repo.
 
-See [CONTRIBUTING.md § GitHub Copilot Agents](CONTRIBUTING.md#github-copilot-agents) for more information.
+For existing customized forks, the recommended migration path is to ask an agent to use the [al-folio v1 migration skill](.agents/skills/al-folio-v1-migration/SKILL.md). The skill walks through creating a disposable migration branch, bringing site-owned content/config/data onto the v1 starter contract, running `al_folio_upgrade`, auditing local overrides, and validating the build. This is preferred over a manual file-by-file upgrade because v1 runtime ownership moved into plugins and local overrides need explicit drift tracking.
 
-> **Requirements:** Both agents require a [GitHub Copilot](https://github.com/features/copilot) subscription. For more information about GitHub Copilot and how to use agents, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
+The canonical skills live in [.agents/skills/](.agents/skills/). They are also exposed through `.codex/skills/` and `.claude/skills/` symlinks for agents that discover skills from tool-specific directories.
+
+### Codex
+
+Codex can use the repo-local skills:
+
+- [al-folio bootstrap](.agents/skills/al-folio-bootstrap/SKILL.md): create and configure a new v1 site.
+- [al-folio v1 migration](.agents/skills/al-folio-v1-migration/SKILL.md): migrate customized forks and audit local overrides.
+
+Useful first prompts:
+
+- "Use the al-folio bootstrap skill to configure my new site."
+- "Use the al-folio v1 migration skill to migrate this customized fork and run the override audit."
+
+### Claude
+
+Claude should start from [CLAUDE.md](CLAUDE.md), which imports [AGENTS.md](AGENTS.md). For setup or migration tasks, use the matching skill from `.claude/skills/`, which points to the canonical `.agents/skills/` directory.
+
+### Copilot And Other Agents
+
+Copilot should follow [.github/copilot-instructions.md](.github/copilot-instructions.md) and the specialized agents in [.github/agents/](.github/agents/). Other agents should follow the same rule: keep starter work in this repo, route runtime behavior to the owning `al-org-dev` plugin, and run `bundle exec al-folio upgrade overrides audit` whenever local overrides are added or retained.
 
 ## Documentation
 
 Comprehensive guides for all aspects of your al-folio website:
 
-- **[Quick Start](QUICKSTART.md)** – Get running in 5 minutes
-- **[Installation & Deployment](INSTALL.md)** – Set up your site on GitHub Pages or other platforms
-- **[Customization Guide](CUSTOMIZE.md)** – Personalize your website (CVs, publications, themes, etc.)
-- **[Troubleshooting](TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
-- **[FAQ](FAQ.md)** – Frequently asked questions and solutions
-- **[Analytics](ANALYTICS.md)** – Add website analytics and visitor tracking
-- **[SEO Guide](SEO.md)** – Optimize for search engines and improve discoverability
+- **[Documentation index](docs/README.md)** – All user, maintainer, and migration guides
+- **[Quick Start](docs/QUICKSTART.md)** – Get running in 5 minutes
+- **[Installation & Deployment](docs/INSTALL.md)** – Set up your site on GitHub Pages or other platforms
+- **[Customization Guide](docs/CUSTOMIZE.md)** – Personalize your website (CVs, publications, themes, etc.)
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
+- **[FAQ](docs/FAQ.md)** – Frequently asked questions and solutions
+- **[Analytics](docs/ANALYTICS.md)** – Add website analytics and visitor tracking
+- **[SEO Guide](docs/SEO.md)** – Optimize for search engines and improve discoverability
+- **[Plugin Catalog](_pages/plugins.md)** – Featured and bundled plugin metadata
 
 ## Features
 
@@ -376,7 +405,7 @@ Your CV can be generated in one of two modern formats: **RenderCV** (recommended
 
 [![CV Preview](readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
 
-For setup and customization details, see [Modifying the CV information](CUSTOMIZE.md#modifying-the-cv-information) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For setup and customization details, see [Modifying the CV information](docs/CUSTOMIZE.md#modifying-the-cv-information) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -394,7 +423,7 @@ Your publications page is generated automatically from your BibTeX bibliography.
 
 [![Publications Preview](readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
 
-For setup, BibTeX field documentation, and customization options, see [Adding a new publication](CUSTOMIZE.md#adding-a-new-publication) and [Managing publication display](CUSTOMIZE.md#managing-publication-display) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For setup, BibTeX field documentation, and customization options, see [Adding a new publication](docs/CUSTOMIZE.md#adding-a-new-publication) and [Managing publication display](docs/CUSTOMIZE.md#managing-publication-display) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -404,7 +433,7 @@ This Jekyll theme implements `collections` to organize content into categories. 
 
 [![Projects Preview](readme_preview/projects.png)](https://alshedivat.github.io/al-folio/projects/)
 
-For detailed instructions on creating and customizing collections, see [Adding Collections](CUSTOMIZE.md#adding-collections) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For detailed instructions on creating and customizing collections, see [Adding Collections](docs/CUSTOMIZE.md#adding-collections) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -431,7 +460,7 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 
 #### Photos, Audio, Video and more
 
-Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/). Easily create beautiful grids within your blog posts and project pages, also with support for [video](https://alshedivat.github.io/al-folio/blog/2023/videos/) and [audio](https://alshedivat.github.io/al-folio/blog/2023/audios/) embeds:
+Photo formatting is made simple using Tailwind-first responsive layout utilities. Easily create beautiful grids within your blog posts and project pages, also with support for [video](https://alshedivat.github.io/al-folio/blog/2023/videos/) and [audio](https://alshedivat.github.io/al-folio/blog/2023/audios/) embeds:
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
@@ -449,7 +478,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 [![Repositories Preview](readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
 
-To configure which repositories and GitHub profiles to display, see [Modifying the user and repository information](CUSTOMIZE.md#modifying-the-user-and-repository-information) in [CUSTOMIZE.md](CUSTOMIZE.md).
+To configure which repositories and GitHub profiles to display, see [Modifying the user and repository information](docs/CUSTOMIZE.md#modifying-the-user-and-repository-information) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -457,7 +486,7 @@ To configure which repositories and GitHub profiles to display, see [Modifying t
 
 **al-folio** offers a variety of beautiful theme colors to choose from. The default is purple, but you can customize colors, fonts, spacing, and more to match your style.
 
-For detailed customization instructions, see [Changing theme color](CUSTOMIZE.md#changing-theme-color) and [Customizing fonts, spacing, and more](CUSTOMIZE.md#customizing-fonts-spacing-and-more) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For detailed customization instructions, see [Changing theme color](docs/CUSTOMIZE.md#changing-theme-color) and [Customizing fonts, spacing, and more](docs/CUSTOMIZE.md#customizing-fonts-spacing-and-more) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -465,7 +494,7 @@ For detailed customization instructions, see [Changing theme color](CUSTOMIZE.md
 
 **al-folio** supports Open Graph preview images on social media. When enabled, your site's pages display rich preview objects with images, titles, and descriptions when shared.
 
-For setup and customization, see [Social media previews](CUSTOMIZE.md#social-media-previews) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For setup and customization, see [Social media previews](docs/CUSTOMIZE.md#social-media-previews) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -479,7 +508,7 @@ It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS read
 
 By default, blog posts display related posts at the bottom. These are selected by finding the most recent posts that share tags with the current post. You can customize this behavior on a per-post or site-wide basis.
 
-For configuration details, see [Related posts](CUSTOMIZE.md#related-posts) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For configuration details, see [Related posts](docs/CUSTOMIZE.md#related-posts) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ---
 
@@ -497,19 +526,19 @@ We decided to keep `Axe` runs manual because fixing the issues are not straightf
 
 #### GDPR Cookie Consent Dialog
 
-**al-folio** includes a built-in, GDPR-compliant cookie consent dialog to ensure your website respects visitor privacy. The dialog is powered by [Vanilla Cookie Consent](https://cookieconsent.orestbida.com/) and integrates seamlessly with all supported analytics providers.
+**al-folio** includes a GDPR-compliant cookie consent dialog provided by the `al_cookie` plugin to ensure your website respects visitor privacy. The dialog is powered by [Vanilla Cookie Consent](https://cookieconsent.orestbida.com/) and integrates seamlessly with all supported analytics providers.
 
 When enabled, analytics scripts are blocked until the user explicitly consents, and user preferences are saved across visits. This is essential for websites serving visitors in the European Union and other regions with strict privacy regulations.
 
-For complete setup and customization details, see [GDPR Cookie Consent Dialog](#gdpr-cookie-consent-dialog) in [CUSTOMIZE.md](CUSTOMIZE.md).
+For complete setup and customization details, see [GDPR Cookie Consent Dialog](docs/CUSTOMIZE.md#gdpr-cookie-consent-dialog) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ## FAQ
 
-For frequently asked questions, please refer to [FAQ.md](FAQ.md).
+For frequently asked questions, please refer to [docs/FAQ.md](docs/FAQ.md).
 
 ## Contributing
 
-Contributions to al-folio are very welcome! Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
+Contributions to al-folio are very welcome! Before you get started, please take a look at [the guidelines](docs/CONTRIBUTING.md).
 
 If you would like to improve documentation or fix a minor inconsistency or bug, please feel free to send a PR directly to `main`. For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 

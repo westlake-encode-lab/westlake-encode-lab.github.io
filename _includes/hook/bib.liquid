@@ -1,0 +1,11 @@
+{%- comment -%} Keep venue badge text white in light & dark mode (overrides theme default). {%- endcomment -%}
+{%- unless badge_text_hook_done -%}
+  {%- assign badge_text_hook_done = true -%}
+  <style>
+    .abbr .badge,
+    .abbr .badge a,
+    .abbr .badge div {
+      color: #fff !important;
+    }
+  </style>
+{%- endunless -%}

@@ -9,127 +9,146 @@ nav_order: 2
 
 <!-- 通用样式定义 -->
 <style>
-.profile-grid {
-  display: grid;
-  gap: 1.5rem 1rem;
-  padding: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.profile-item {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  text-align: left;
-  padding: 0.5rem;
-  height: fit-content;
-  width: 100%;
-  color: var(--global-text-color);
-  gap: 0.75rem;
-}
-
-.profile-image {
-  width: 100px;
-  min-width: 100px;
-  aspect-ratio: 3/4;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.profile-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex: 1;
-}
-
-.profile-name {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.3rem 0;
-  color: var(--global-theme-color);
-}
-
-.profile-social {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin: 0.3rem 0;
-}
-
-.profile-social a {
-  color: var(--global-text-color);
-}
-
-.profile-social a:hover {
-  color: var(--global-theme-color);
-}
-
-.profile-description {
-  font-size: 0.85rem;
-  line-height: 1.4;
-  margin: 0.3rem 0 0 0;
-  color: var(--global-text-color-light);
-}
-
-/* 响应式布局类 */
-.grid-1-col { grid-template-columns: repeat(1, 1fr); }
-.grid-2-col { grid-template-columns: repeat(2, 1fr); }
-.grid-3-col { grid-template-columns: repeat(3, 1fr); }
-.grid-4-col { grid-template-columns: repeat(4, 1fr); }
-
-@media (max-width: 992px) {
-  .grid-4-col {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .grid-3-col, .grid-4-col {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
   .profile-grid {
-    grid-template-columns: repeat(1, 1fr) !important;
+    display: grid;
+    gap: 1.25rem;
+    padding: 0.5rem 0 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
-}
 
-/* 纯文字列表样式 */
-.text-list {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0;
-  columns: 2;
-  column-gap: 2rem;
-}
+  /* ---- Profile cards ---- */
+  .profile-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    color: var(--global-text-color);
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--card-transition);
+  }
 
-.text-list li {
-  padding: 0.35rem 0;
-  font-size: 0.95rem;
-  break-inside: avoid;
-}
+  .profile-item:hover {
+    transform: var(--card-lift);
+    box-shadow: var(--card-shadow-hover);
+  }
 
-.text-list li .dest {
-  color: var(--global-text-color-light);
-  font-size: 0.85rem;
-}
+  .profile-image {
+    width: 90px;
+    min-width: 90px;
+    aspect-ratio: 3 / 4;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
 
-@media (max-width: 576px) {
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .profile-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.35rem 0;
+    color: var(--global-theme-color);
+  }
+
+  .profile-social {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0.3rem 0;
+  }
+
+  .profile-social a {
+    color: var(--global-text-color-light);
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  .profile-social a:hover {
+    color: var(--global-theme-color);
+    transform: translateY(-2px);
+  }
+
+  .profile-description {
+    font-size: 0.83rem;
+    line-height: 1.45;
+    margin: 0.4rem 0 0 0;
+    color: var(--global-text-color-light);
+  }
+
+  /* responsive grid columns */
+  .grid-1-col {
+    grid-template-columns: minmax(0, 400px);
+    justify-content: start;
+  }
+  .grid-3-col { grid-template-columns: repeat(3, 1fr); }
+
+  @media (max-width: 768px) {
+    .grid-3-col { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .profile-grid { grid-template-columns: repeat(1, 1fr) !important; }
+  }
+
+  /* ---- Text lists (visiting / alumni) ---- */
+  .list-note {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin: 0.1rem 0 0.7rem 0;
+  }
+
   .text-list {
-    columns: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+    columns: 2;
+    column-gap: 2.5rem;
   }
-}
+
+  .text-list li {
+    padding: 0.4rem 0;
+    font-size: 0.95rem;
+    break-inside: avoid;
+  }
+
+  .text-list li a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .text-list li a:hover {
+    text-decoration: underline;
+  }
+
+  .text-list li .dest {
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+  }
+
+  @media (max-width: 576px) {
+    .text-list { columns: 1; }
+  }
 </style>
 
 ## Principal Investigator
 <div class="profile-grid grid-1-col">
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/huan_wang.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/huan_wang.jpg" alt="Huan Wang"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Huan Wang</h3>
@@ -150,7 +169,7 @@ nav_order: 2
 ## Administrative & Postdoc Staff
 <div class="profile-grid grid-3-col">
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xinjun_lin.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/xinjun_lin.jpg" alt="Xinjun Lin"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Xinjun Lin</h3>
@@ -162,7 +181,7 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/ying_li.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/ying_li.jpg" alt="Ying Li"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Ying Li</h3>
@@ -181,7 +200,7 @@ nav_order: 2
 
 <div class="profile-grid grid-3-col">
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/kele_shao.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/kele_shao.jpg" alt="Kele Shao"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Kele Shao</h3>
@@ -196,7 +215,7 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/keda_tao.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/keda_tao.jpg" alt="Keda Tao"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Keda Tao</h3>
@@ -211,7 +230,7 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/hesong_wang.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/hesong_wang.jpg" alt="Hesong Wang"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Hesong Wang</h3>
@@ -220,12 +239,13 @@ nav_order: 2
       <a href="https://viridisgreen.github.io" title="Homepage"><i class="fa-solid fa-house"></i></a>
       <a href="mailto:viridisgreen27@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://github.com/viridisGreen" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=Cz6w2swAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     </div>
     <p class="profile-description">Fall 2025 - <br> BS@BUPT</p>
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/mingluo_su.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/mingluo_su.jpg" alt="Mingluo Su"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Mingluo Su</h3>
@@ -240,7 +260,7 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xueyi_chen.png" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/xueyi_chen.png" alt="Xueyi Chen"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Xueyi Chen</h3>
@@ -259,7 +279,7 @@ nav_order: 2
 ## Research Assistants
 <div class="profile-grid grid-3-col">
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xin_jin.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/xin_jin.jpg" alt="Xin Jin"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Xin Jin</h3>
@@ -274,7 +294,7 @@ nav_order: 2
     </div>
   </div>
   <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/chun_yang.jpg" alt="Profile"/>
+    <img class="profile-image" src="../assets/img/people/chun_yang.jpg" alt="Chun Yang"/>
     <div class="profile-content">
 
       <h3 class="profile-name">Chun Yang</h3>
@@ -292,16 +312,13 @@ nav_order: 2
 
 <ul class="text-list">
   <li><strong>Shikang Zhang</strong></li>
-  <li><strong>Jinhao Sheng</strong></li>
 </ul>
 
 ## Visiting Students
 
 <ul class="text-list">
   <li><strong>Youssef Ahmed</strong> <span class="dest">BS@Westlake</span></li>
-  <li><strong><a href="https://deadlykitten4.github.io/">Haolei Bai</a></strong> <span class="dest">MS@NTU</span></li>
   <li><strong>Wenrui Bao</strong> <span class="dest">MS@NTU</span></li>
-  <li><strong>Zixu Wang</strong></li>
   <li><strong>Yikai Yang</strong> <span class="dest">MS@ZJU</span></li>
   <li><strong><a href="https://pillor9.github.io/">Yuhua Zheng</a></strong> <span class="dest">BS@ZJU</span></li>
   <li><strong>Wenxi Zhu</strong> <span class="dest">BS@Westlake</span></li>
@@ -309,8 +326,11 @@ nav_order: 2
 
 ## Alumni
 
+<p class="list-note">Sorted alphabetically by last name.</p>
+
 <ul class="text-list">
   <li><strong><a href="https://ai-kunkun.github.io/">Zhenxin Ai</a></strong> <span class="dest">BS@JXUST</span></li>
+  <li><strong><a href="https://deadlykitten4.github.io/">Haolei Bai</a></strong> <span class="dest">MS@NTU</span></li>
   <li><strong>Rongfu Bai</strong> <span class="dest">BS@XJTU</span></li>
   <li><strong><a href="https://kurt232.github.io/">Wenjie Du</a></strong> <span class="dest">BS@SCU → MS@NTU</span></li>
   <li><strong><a href="https://fscdc.github.io/">Sicheng Feng</a></strong> <span class="dest">BS@NKU → PhD@NUS</span></li>
@@ -322,10 +342,12 @@ nav_order: 2
   <li><strong><a href="https://xuan9-9.github.io/">Jiaxuan Ren</a></strong> <span class="dest">BS@UESTC</span></li>
   <li><strong><a href="https://hanzhangshen03.github.io">Hanzhang Shen</a></strong> <span class="dest">BS@Cambridge</span></li>
   <li><strong>Haoyu Shen</strong></li>
+  <li><strong>Jinhao Sheng</strong></li>
   <li><strong><a href="https://zhenyusun-walker.github.io/">Zhenyu Sun</a></strong> <span class="dest">BS@SCUT → PhD@SJTU</span></li>
   <li><strong><a href="https://cfintech.github.io/">Kaiwen Tuo</a></strong> <span class="dest">BS@Tongji → PhD@HKUST</span></li>
   <li><strong><a href="https://aden9460.github.io/Zefang-Wang/">Zefang Wang</a></strong> <span class="dest">MS@ZJU</span></li>
   <li><strong>Qitong Wang</strong></li>
+  <li><strong>Zixu Wang</strong></li>
   <li><strong>Fan Wu</strong></li>
   <li><strong><a href="https://xianzuwu.github.io/">Xianzu Wu</a></strong></li>
   <li><strong><a href="https://jiaxu0123.github.io/jiaxu/">Jia Xu</a></strong> <span class="dest">BS@BIT</span></li>

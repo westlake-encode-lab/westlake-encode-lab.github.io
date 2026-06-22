@@ -2,15 +2,15 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        <img src="{{ '/assets/img/EncodeLab_icon.svg' | relative_url }}" alt="EncodeLab" style="height: 30px; width: auto;">
+      <!-- Lab logo (shown on every page; links home) -->
+      <a class="navbar-brand logo" href="{{ '/' | relative_url }}" aria-label="ENCODE Lab — home">
+        <img src="{{ '/assets/img/EncodeLab_icon.svg' | relative_url }}" alt="ENCODE Lab" class="navbar-logo" />
       </a>
       <!-- Navbar Toggle -->
       <button
-        class="navbar-toggler collapsed ml-auto"
+        class="navbar-toggler collapsed navbar-toggler-main"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
+        data-nav-toggle="navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -21,8 +21,8 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+        <ul class="navbar-nav navbar-menu-list flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
@@ -54,7 +54,7 @@
                     href="#"
                     id="navbarDropdown"
                     role="button"
-                    data-toggle="dropdown"
+                    data-nav-dropdown-toggle="true"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -101,7 +101,7 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+              <button id="search-toggle" type="button" title="Search" aria-label="Open search">
                 <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
               </button>
             </li>
@@ -109,7 +109,7 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme">
                 <i class="fa-half-sun-moon" id="light-toggle-system"></i>
                 <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
                 <i class="fa-solid fa-sun" id="light-toggle-light"></i>

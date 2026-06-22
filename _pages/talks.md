@@ -8,96 +8,165 @@ nav_order: 5
 ---
 
 <style>
-.talk-item {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--global-divider-color);
-  gap: 1rem;
-}
-
-.talk-item:last-child {
-  border-bottom: none;
-}
-
-.talk-image {
-  width: 100px;
-  min-width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.talk-content {
-  flex: 1;
-}
-
-.talk-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.3rem 0;
-  color: var(--global-theme-color);
-}
-
-.talk-speaker {
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0.3rem 0;
-}
-
-.talk-affiliation {
-  font-size: 0.9rem;
-  color: var(--global-text-color-light);
-  margin: 0.2rem 0;
-}
-
-.talk-date {
-  font-size: 0.85rem;
-  color: var(--global-text-color-light);
-  margin: 0.3rem 0;
-}
-
-.talk-meta {
-  font-size: 0.85rem;
-  color: var(--global-text-color-light);
-  margin: 0.2rem 0;
-}
-
-.talk-abstract {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin: 0.5rem 0;
-  color: var(--global-text-color);
-}
-
-.talk-links {
-  display: flex;
-  gap: 0.8rem;
-  margin-top: 0.5rem;
-}
-
-.talk-links a {
-  font-size: 0.85rem;
-  color: var(--global-theme-color);
-}
-
-@media (max-width: 576px) {
+  /* ---- Talk cards ---- */
   .talk-item {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--card-transition);
+  }
+
+  .talk-item:hover {
+    transform: var(--card-lift);
+    box-shadow: var(--card-shadow-hover);
+  }
+
+  /* Highlight upcoming talks with an accent + badge */
+  .talk-item.upcoming {
+    border-left: 4px solid var(--global-theme-color);
+  }
+
+  .talk-item.upcoming .talk-title::before {
+    content: "UPCOMING";
+    display: inline-block;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background: var(--global-theme-color);
+    border-radius: 999px;
+    padding: 0.16rem 0.6rem;
+    margin-right: 0.55rem;
+    vertical-align: middle;
+  }
+
+  .talk-image {
+    width: 96px;
+    min-width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .talk-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .talk-title {
+    font-size: 1.18rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 0.4rem 0;
+    color: var(--global-theme-color);
+  }
+
+  .talk-speaker {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.2rem 0;
+    color: var(--global-text-color);
+  }
+
+  .talk-affiliation {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin: 0.1rem 0 0.6rem 0;
+  }
+
+  .talk-date,
+  .talk-meta {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin: 0.28rem 0;
+  }
+
+  .talk-date i,
+  .talk-meta i {
+    color: var(--global-theme-color);
+    width: 1rem;
+    margin-right: 0.45rem;
     text-align: center;
   }
 
-  .talk-links {
-    justify-content: center;
+  .talk-abstract {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin: 0.8rem 0 0.25rem 0;
+    color: var(--global-text-color);
   }
-}
+
+  /* Pill-shaped link buttons */
+  .talk-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.85rem;
+  }
+
+  .talk-links a {
+    font-size: 0.82rem;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    padding: 0.28rem 0.85rem;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .talk-links a:hover {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: #fff;
+  }
+
+  @media (max-width: 576px) {
+    .talk-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1.25rem;
+    }
+
+    .talk-item.upcoming {
+      border-left: none;
+      border-top: 4px solid var(--global-theme-color);
+    }
+
+    .talk-links {
+      justify-content: center;
+    }
+  }
 </style>
 
 ## Upcoming Talks
 
-*No upcoming talks scheduled. Stay tuned!*
+<div class="talk-item upcoming">
+  <img class="talk-image" src="../assets/img/talks/xilin_chen.png" alt="Xilin Chen"/>
+  <div class="talk-content">
+    <h3 class="talk-title">On the Transfer and Development of Embodied Intelligent Systems</h3>
+    <p class="talk-speaker">Xilin Chen, Professor</p>
+    <p class="talk-affiliation">Institute of Computing Technology, Chinese Academy of Sciences</p>
+    <p class="talk-date"><i class="fa-regular fa-calendar"></i> June 23, 2026, 14:00-15:30</p>
+    <p class="talk-meta"><i class="fa-solid fa-location-dot"></i> E10-215, Yungu Campus</p>
+    <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang</p>
+    <p class="talk-meta"><i class="fa-solid fa-microphone"></i> Westlake AI Forum (8th) &middot; Language: Chinese</p>
+    <p class="talk-abstract">
+      Embodied intelligence is a bridge and engineering path connecting the physical and mental worlds, and has become an important means for exploring intelligence and its applications. However, the field faces challenges such as a wide variety of embodiments and highly task-dependent settings, which often lead to dependency and over-specialization that constrain progress. The key to overcoming these limitations lies in cross-embodiment transferability and cross-task developmental growth. This talk explores these problems, proposing hierarchical task decomposition and language–embodiment adaptation for transferability, and continual learning for growth. We present recent work probing the feasibility of these ideas, and outline open problems and future directions worth attention.
+    </p>
+    <div class="talk-links">
+      <a href="http://vipl.ict.ac.cn/people/xlchen/" title="Homepage"><i class="fa-solid fa-house"></i> Homepage</a>
+    </div>
+  </div>
+</div>
 
 ---
 
