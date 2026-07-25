@@ -319,7 +319,6 @@ nav_order: 2
 <ul class="text-list">
   <li><strong>Youssef Ahmed</strong> <span class="dest">BS@Westlake</span></li>
   <li><strong>Wenrui Bao</strong> <span class="dest">MS@NTU</span></li>
-  <li><strong>Yikai Yang</strong> <span class="dest">MS@ZJU</span></li>
   <li><strong><a href="https://pillor9.github.io/">Yuhua Zheng</a></strong> <span class="dest">BS@ZJU</span></li>
   <li><strong>Wenxi Zhu</strong> <span class="dest">BS@Westlake</span></li>
 </ul>
@@ -331,7 +330,6 @@ nav_order: 2
 <ul class="text-list">
   <li><strong><a href="https://ai-kunkun.github.io/">Zhenxin Ai</a></strong> <span class="dest">BS@JXUST</span></li>
   <li><strong><a href="https://deadlykitten4.github.io/">Haolei Bai</a></strong> <span class="dest">MS@NTU</span></li>
-  <li><strong>Rongfu Bai</strong> <span class="dest">BS@XJTU</span></li>
   <li><strong><a href="https://kurt232.github.io/">Wenjie Du</a></strong> <span class="dest">BS@SCU → MS@NTU</span></li>
   <li><strong><a href="https://fscdc.github.io/">Sicheng Feng</a></strong> <span class="dest">BS@NKU → PhD@NUS</span></li>
   <li><strong><a href="https://syjmelody.github.io/">Siyong Jian</a></strong> <span class="dest">MS@NJU</span></li>
@@ -342,7 +340,6 @@ nav_order: 2
   <li><strong><a href="https://xuan9-9.github.io/">Jiaxuan Ren</a></strong> <span class="dest">BS@UESTC</span></li>
   <li><strong><a href="https://hanzhangshen03.github.io">Hanzhang Shen</a></strong> <span class="dest">BS@Cambridge</span></li>
   <li><strong>Haoyu Shen</strong></li>
-  <li><strong>Jinhao Sheng</strong></li>
   <li><strong><a href="https://zhenyusun-walker.github.io/">Zhenyu Sun</a></strong> <span class="dest">BS@SCUT → PhD@SJTU</span></li>
   <li><strong><a href="https://cfintech.github.io/">Kaiwen Tuo</a></strong> <span class="dest">BS@Tongji → PhD@HKUST</span></li>
   <li><strong><a href="https://aden9460.github.io/Zefang-Wang/">Zefang Wang</a></strong> <span class="dest">MS@ZJU</span></li>
@@ -354,5 +351,4 @@ nav_order: 2
   <li><strong><a href="https://simmy-x.github.io/">Simin Xu</a></strong></li>
   <li><strong><a href="https://wiserzhou.github.io">Yufan Zhou</a></strong> <span class="dest">BS@HIT</span></li>
   <li><strong><a href="https://alrightlone.github.io/">Junhan Zhu</a></strong> <span class="dest">BS@Westlake</span></li>
-  <li><strong><a href="https://wuyulunbizhouojielun.github.io/">Huixing Zhu</a></strong> <span class="dest">BS@ZJU → MS@ZJU</span></li>
 </ul>
