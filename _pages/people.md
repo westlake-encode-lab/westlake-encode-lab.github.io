@@ -274,44 +274,30 @@ nav_order: 2
     <p class="profile-description">Fall 2026 - <br> MS@CUHK <br> BS@FZU</p>
     </div>
   </div>
+  <div class="profile-item">
+    <img class="profile-image" src="../assets/img/people/xin_li.jpg" alt="Xin Li"/>
+    <div class="profile-content">
+
+      <h3 class="profile-name">Xin Li</h3>
+
+      <div class="profile-social">
+      <a href="http://profile.slowist.top/" title="Homepage"><i class="fa-solid fa-house"></i></a>
+      <a href="mailto:slowistlee@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=-mE_eEEAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/Slowist-Lee" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="profile-description">Fall 2027 - <br> BS@ZJU</p>
+    </div>
+  </div>
 </div>
 
 ## Research Assistants
-<div class="profile-grid grid-3-col">
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/xin_jin.jpg" alt="Xin Jin"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Xin Jin</h3>
-
-      <div class="profile-social">
-      <a href="https://jinxins.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:jinxin86@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/JinXins" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">MS&BS@CTBU <br> Since Jun 2025</p>
-    </div>
-  </div>
-  <div class="profile-item">
-    <img class="profile-image" src="../assets/img/people/chun_yang.jpg" alt="Chun Yang"/>
-    <div class="profile-content">
-
-      <h3 class="profile-name">Chun Yang</h3>
-
-      <div class="profile-social">
-      <a href="https://chuny9743.github.io/" title="Homepage"><i class="fa-solid fa-house"></i></a>
-      <a href="mailto:yangchun@westlake.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?hl=zh-CN&user=D_pszsIAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/chuny9743" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <p class="profile-description">BS@BIT <br> Since Oct 2025</p>
-    </div>
-  </div>
-</div>
 
 <ul class="text-list">
-  <li><strong>Shikang Zhang</strong></li>
+  <li><strong>Pengfei Bai</strong></li>
+  <li><strong>Liming Mao</strong></li>
+  <li><strong>Xinwei Niu</strong></li>
+  <li><strong>Junhao Zhu</strong></li>
 </ul>
 
 ## Visiting Students
@@ -333,6 +319,7 @@ nav_order: 2
   <li><strong><a href="https://kurt232.github.io/">Wenjie Du</a></strong> <span class="dest">BS@SCU → MS@NTU</span></li>
   <li><strong><a href="https://fscdc.github.io/">Sicheng Feng</a></strong> <span class="dest">BS@NKU → PhD@NUS</span></li>
   <li><strong><a href="https://syjmelody.github.io/">Siyong Jian</a></strong> <span class="dest">MS@NJU</span></li>
+  <li><strong><a href="https://jinxins.github.io/">Xin Jin</a></strong> <span class="dest">MS&BS@CTBU</span></li>
   <li><strong><a href="https://www.linkedin.com/in/lingcheng-kong-443624303">Lingcheng Kong</a></strong> <span class="dest">BS@HKUST</span></li>
   <li><strong><a href="https://hp-l33.github.io/">Haopeng Li</a></strong> <span class="dest">BS@BUPT → MS@HKUST(GZ)</span></li>
   <li><strong><a href="https://boyaliao.github.io/">Boya Liao</a></strong> <span class="dest">MS@ZJU → PhD@UMN</span></li>
@@ -349,6 +336,8 @@ nav_order: 2
   <li><strong><a href="https://xianzuwu.github.io/">Xianzu Wu</a></strong></li>
   <li><strong><a href="https://jiaxu0123.github.io/jiaxu/">Jia Xu</a></strong> <span class="dest">BS@BIT</span></li>
   <li><strong><a href="https://simmy-x.github.io/">Simin Xu</a></strong></li>
+  <li><strong><a href="https://chuny9743.github.io/">Chun Yang</a></strong> <span class="dest">BS@BIT</span></li>
+  <li><strong>Shikang Zhang</strong></li>
   <li><strong><a href="https://wiserzhou.github.io">Yufan Zhou</a></strong> <span class="dest">BS@HIT</span></li>
   <li><strong><a href="https://alrightlone.github.io/">Junhan Zhu</a></strong> <span class="dest">BS@Westlake</span></li>
 </ul>
