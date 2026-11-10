@@ -61,7 +61,13 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// Customized sites may keep acknowledged layouts/includes, as documented in
+// docs/BOUNDARIES.md. Keep the thin-starter restriction for uncustomized forks.
+const forbiddenPaths = ["_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"];
+if (!exists(".al-folio-overrides.yml")) {
+  forbiddenPaths.push("_includes", "_layouts");
+}
+for (const forbiddenPath of forbiddenPaths) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }

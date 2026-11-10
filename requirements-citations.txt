@@ -1,0 +1,4 @@
+pyyaml>=6,<7
+scholarly==1.7.11
+bibtexparser>=1.4.3,<2
+httpx>=0.23,<0.28

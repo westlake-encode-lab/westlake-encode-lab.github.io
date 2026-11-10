@@ -48,7 +48,7 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3"
           bundler-cache: true
 
       - name: Setup Python 🐍
@@ -60,7 +60,7 @@ jobs:
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "npm"
 
       - name: Install JS deps 📦
@@ -75,12 +75,14 @@ jobs:
           pip3 install --upgrade nbconvert
 
       - name: Run comments integration test 🧪
+        if: ${{ hashFiles('_posts/*giscus-comments*') != '' && hashFiles('_posts/*disqus-comments*') != '' }}
         run: bash test/integration_comments.sh
 
       - name: Run plugin toggle integration test 🔌
         run: bash test/integration_plugin_toggles.sh
 
       - name: Run distill integration test 📄
+        if: ${{ hashFiles('_posts/*distill*') != '' }}
         run: bash test/integration_distill.sh
 
       - name: Run bootstrap compatibility integration test 🧩

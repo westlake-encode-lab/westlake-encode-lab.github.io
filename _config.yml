@@ -179,6 +179,8 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - AGENTS.md
+  - CLAUDE.md
   - al-folio-upgrade-report.md
   - bin/
   - CONTRIBUTING.md
@@ -201,6 +203,10 @@ exclude:
   - readme_preview/
   - gems/
   - migrations/
+  - node_modules/
+  - requirements.txt
+  - requirements-citations.txt
+  - test/
   - vendor
 keep_files:
   - CNAME
@@ -281,7 +287,6 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
-
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

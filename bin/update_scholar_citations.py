@@ -4,7 +4,6 @@ import os
 import sys
 import yaml
 from datetime import datetime
-from scholarly import scholarly
 
 
 def load_scholar_user_id() -> str:
@@ -21,10 +20,10 @@ def load_scholar_user_id() -> str:
         scholar_user_id = config.get("scholar_userid")
         if not scholar_user_id:
             print(
-                "No 'scholar_userid' found in the configuration file. Please add 'scholar_userid' to _data/socials.yml."
+                "No 'scholar_userid' configured; skipping citation updates."
             )
-            sys.exit(1)
-        return scholar_user_id
+            return ""
+        return str(scholar_user_id).strip()
     except yaml.YAMLError as e:
         print(
             f"Error parsing YAML file {config_file}: {e}. Please check the file for correct YAML syntax."
@@ -38,8 +37,13 @@ OUTPUT_FILE: str = "_data/citations.yml"
 
 def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
+    if not SCHOLAR_USER_ID:
+        return
+    from scholarly import scholarly
+
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
+    existing_data = None
 
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
@@ -126,7 +130,14 @@ def get_scholar_citations() -> None:
 
 if __name__ == "__main__":
     try:
-        get_scholar_citations()
+        if "--check-config" in sys.argv:
+            enabled = "true" if SCHOLAR_USER_ID else "false"
+            if os.environ.get("GITHUB_OUTPUT"):
+                with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+                    output.write(f"enabled={enabled}\n")
+            print(f"Citation updates enabled: {enabled}")
+        else:
+            get_scholar_citations()
     except Exception as e:
         print(f"Unexpected error: {e}")
         sys.exit(1)

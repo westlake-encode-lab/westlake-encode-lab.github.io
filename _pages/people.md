@@ -146,6 +146,7 @@ nav_order: 2
 </style>
 
 ## Principal Investigator
+
 <div class="profile-grid grid-1-col">
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/huan_wang.jpg" alt="Huan Wang"/>
@@ -163,10 +164,12 @@ nav_order: 2
       </div>
       <p class="profile-description">Assistant Professor <br> PhD@NEU, MS&BS@ZJU</p>
     </div>
+
   </div>
 </div>
 
 ## Administrative & Postdoc Staff
+
 <div class="profile-grid grid-3-col">
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/xinjun_lin.jpg" alt="Xinjun Lin"/>
@@ -179,6 +182,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Administrative Assistant <br> MFA@Goldsmiths, BA@CAA</p>
     </div>
+
   </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/ying_li.jpg" alt="Ying Li"/>
@@ -193,6 +197,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Postdoc Researcher <br> PhD@SJTU, Since Jan 2025</p>
     </div>
+
   </div>
 </div>
 
@@ -213,6 +218,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Fall 2025 - <br> BS@ZJU</p>
     </div>
+
   </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/keda_tao.jpg" alt="Keda Tao"/>
@@ -228,6 +234,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Fall 2025 - <br> BS@XDU</p>
     </div>
+
   </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/hesong_wang.jpg" alt="Hesong Wang"/>
@@ -243,6 +250,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Fall 2025 - <br> BS@BUPT</p>
     </div>
+
   </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/mingluo_su.jpg" alt="Mingluo Su"/>
@@ -258,6 +266,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Fall 2026 - <br> MS@Beihang <br> BS@NWPU</p>
     </div>
+
   </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/xueyi_chen.png" alt="Xueyi Chen"/>
@@ -273,6 +282,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Fall 2026 - <br> MS@CUHK <br> BS@FZU</p>
     </div>
+
   </div>
   <div class="profile-item">
     <img class="profile-image" src="../assets/img/people/xin_li.jpg" alt="Xin Li"/>
@@ -288,6 +298,7 @@ nav_order: 2
     </div>
     <p class="profile-description">Fall 2027 - <br> BS@ZJU</p>
     </div>
+
   </div>
 </div>
 
