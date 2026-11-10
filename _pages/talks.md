@@ -28,25 +28,6 @@ nav_order: 5
     box-shadow: var(--card-shadow-hover);
   }
 
-  /* Highlight upcoming talks with an accent + badge */
-  .talk-item.upcoming {
-    border-left: 4px solid var(--global-theme-color);
-  }
-
-  .talk-item.upcoming .talk-title::before {
-    content: "UPCOMING";
-    display: inline-block;
-    font-size: 0.62rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    color: #fff;
-    background: var(--global-theme-color);
-    border-radius: 999px;
-    padding: 0.16rem 0.6rem;
-    margin-right: 0.55rem;
-    vertical-align: middle;
-  }
-
   .talk-image {
     width: 96px;
     min-width: 96px;
@@ -136,20 +117,15 @@ nav_order: 5
       padding: 1.25rem;
     }
 
-    .talk-item.upcoming {
-      border-left: none;
-      border-top: 4px solid var(--global-theme-color);
-    }
-
     .talk-links {
       justify-content: center;
     }
   }
 </style>
 
-## Upcoming Talks
+## Past Talks
 
-<div class="talk-item upcoming">
+<div class="talk-item">
   <img class="talk-image" src="../assets/img/talks/xilin_chen.png" alt="Xilin Chen"/>
   <div class="talk-content">
     <h3 class="talk-title">On the Transfer and Development of Embodied Intelligent Systems</h3>
@@ -167,10 +143,6 @@ nav_order: 5
     </div>
   </div>
 </div>
-
----
-
-## Past Talks
 
 <div class="talk-item">
   <img class="talk-image" src="../assets/img/talks/disheng_liu.jpg" alt="Disheng Liu"/>
