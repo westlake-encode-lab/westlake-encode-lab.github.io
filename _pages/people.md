@@ -294,19 +294,21 @@ nav_order: 2
 ## Research Assistants
 
 <ul class="text-list">
-  <li><strong>Pengfei Bai</strong></li>
+  <li><strong>Junhao Zhu</strong></li>
   <li><strong>Liming Mao</strong></li>
   <li><strong>Xinwei Niu</strong></li>
-  <li><strong>Junhao Zhu</strong></li>
 </ul>
 
 ## Visiting Students
 
 <ul class="text-list">
   <li><strong>Youssef Ahmed</strong> <span class="dest">BS@Westlake</span></li>
-  <li><strong>Wenrui Bao</strong> <span class="dest">MS@NTU</span></li>
-  <li><strong><a href="https://pillor9.github.io/">Yuhua Zheng</a></strong> <span class="dest">BS@ZJU</span></li>
-  <li><strong>Wenxi Zhu</strong> <span class="dest">BS@Westlake</span></li>
+  <li><strong>Linge Du</strong></li>
+  <li><strong>Xianrui Hou</strong></li>
+  <li><strong>Zhanyi Lu</strong></li>
+  <li><strong>Zhihao Qian</strong></li>
+  <li><strong>Qitong Wang</strong></li>
+  <li><strong>Zichen Zhao</strong></li>
 </ul>
 
 ## Alumni
@@ -316,6 +318,7 @@ nav_order: 2
 <ul class="text-list">
   <li><strong><a href="https://ai-kunkun.github.io/">Zhenxin Ai</a></strong> <span class="dest">BS@JXUST</span></li>
   <li><strong><a href="https://deadlykitten4.github.io/">Haolei Bai</a></strong> <span class="dest">MS@NTU</span></li>
+  <li><strong>Wenrui Bao</strong> <span class="dest">MS@NTU</span></li>
   <li><strong><a href="https://kurt232.github.io/">Wenjie Du</a></strong> <span class="dest">BS@SCU → MS@NTU</span></li>
   <li><strong><a href="https://fscdc.github.io/">Sicheng Feng</a></strong> <span class="dest">BS@NKU → PhD@NUS</span></li>
   <li><strong><a href="https://syjmelody.github.io/">Siyong Jian</a></strong> <span class="dest">MS@NJU</span></li>
@@ -323,21 +326,26 @@ nav_order: 2
   <li><strong><a href="https://www.linkedin.com/in/lingcheng-kong-443624303">Lingcheng Kong</a></strong> <span class="dest">BS@HKUST</span></li>
   <li><strong><a href="https://hp-l33.github.io/">Haopeng Li</a></strong> <span class="dest">BS@BUPT → MS@HKUST(GZ)</span></li>
   <li><strong><a href="https://boyaliao.github.io/">Boya Liao</a></strong> <span class="dest">MS@ZJU → PhD@UMN</span></li>
+  <li><strong>Shiyu Liu</strong></li>
   <li><strong><a href="https://ddsacu.github.io/">Zhizhen Pan</a></strong> <span class="dest">BS@BUPT</span></li>
   <li><strong><a href="https://xuan9-9.github.io/">Jiaxuan Ren</a></strong> <span class="dest">BS@UESTC</span></li>
   <li><strong><a href="https://hanzhangshen03.github.io">Hanzhang Shen</a></strong> <span class="dest">BS@Cambridge</span></li>
   <li><strong>Haoyu Shen</strong></li>
+  <li><strong>Yinlong Shen</strong></li>
   <li><strong><a href="https://zhenyusun-walker.github.io/">Zhenyu Sun</a></strong> <span class="dest">BS@SCUT → PhD@SJTU</span></li>
   <li><strong><a href="https://cfintech.github.io/">Kaiwen Tuo</a></strong> <span class="dest">BS@Tongji → PhD@HKUST</span></li>
   <li><strong><a href="https://aden9460.github.io/Zefang-Wang/">Zefang Wang</a></strong> <span class="dest">MS@ZJU</span></li>
-  <li><strong>Qitong Wang</strong></li>
   <li><strong>Zixu Wang</strong></li>
   <li><strong>Fan Wu</strong></li>
   <li><strong><a href="https://xianzuwu.github.io/">Xianzu Wu</a></strong></li>
   <li><strong><a href="https://jiaxu0123.github.io/jiaxu/">Jia Xu</a></strong> <span class="dest">BS@BIT</span></li>
   <li><strong><a href="https://simmy-x.github.io/">Simin Xu</a></strong></li>
   <li><strong><a href="https://chuny9743.github.io/">Chun Yang</a></strong> <span class="dest">BS@BIT</span></li>
+  <li><strong>Jie Zhang</strong></li>
   <li><strong>Shikang Zhang</strong></li>
+  <li><strong><a href="https://pillor9.github.io/">Yuhua Zheng</a></strong> <span class="dest">BS@ZJU</span></li>
   <li><strong><a href="https://wiserzhou.github.io">Yufan Zhou</a></strong> <span class="dest">BS@HIT</span></li>
   <li><strong><a href="https://alrightlone.github.io/">Junhan Zhu</a></strong> <span class="dest">BS@Westlake</span></li>
+  <li><strong>Wenxi Zhu</strong> <span class="dest">BS@Westlake</span></li>
+  <li><strong>Dianyuan Zou</strong></li>
 </ul>
