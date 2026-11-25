@@ -6,12 +6,14 @@ import shutil
 from datetime import date
 from html import escape
 from pathlib import Path
+from string import Template
 from tempfile import TemporaryDirectory
 
 from site_content import load_content
 from site_render import SITE_ORIGIN, RenderedSite, SiteRenderer
 
 PROJECT_ROOT = Path(__file__).resolve().parent
+HIGHLIGHT_REDIRECTS = {"eccv-2026": "eccv2026", "icml-2026": "icml2026", "cvpr-2026": "cvpr2026"}
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -31,6 +33,14 @@ def build_site(root: Path, *, preview: bool = False) -> Path:
         staging = Path(temporary) / "site"
         shutil.copytree(root / "assets", staging / "assets")
         _write_site(staging, rendered)
+        redirect = Template((root / "templates/redirect.html").read_text(encoding="utf-8"))
+        highlights_directory = staging / "highlights"
+        for old_slug, new_slug in HIGHLIGHT_REDIRECTS.items():
+            if not (highlights_directory / new_slug / "index.html").is_file():
+                raise ValueError(f"Missing redirect destination for {old_slug}: {new_slug}")
+            old_directory = highlights_directory / old_slug
+            old_directory.mkdir()
+            (old_directory / "index.html").write_text(redirect.substitute(target=f"../{new_slug}/"), encoding="utf-8")
         if preview:
             shutil.copyfile(root / "templates/preview.html", staging / "preview.html")
         _replace_output(staging, output, Path(temporary) / "previous")

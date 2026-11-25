@@ -1,6 +1,6 @@
 [
   {
-    "id": "eccv-2026",
+    "id": "eccv2026",
     "venue": "ECCV",
     "year": "2026",
     "source_url": "https://westlake-encode-lab.github.io/ECCV-26/",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "id": "icml-2026",
+    "id": "icml2026",
     "venue": "ICML",
     "year": "2026",
     "source_url": "https://huanwang.tech/confs/icml26.html",
@@ -338,7 +338,7 @@
     }
   },
   {
-    "id": "cvpr-2026",
+    "id": "cvpr2026",
     "venue": "CVPR",
     "year": "2026",
     "source_url": "https://huanwang.tech/confs/cvpr26.html",
