@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0e1c33" />
+            <stop offset="55%" stop-color="#2a4468" />
+            <stop offset="100%" stop-color="#6f93b8" />
+          </linearGradient>
+          <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#1e3050" />
+            <stop offset="100%" stop-color="#14233c" />
+          </linearGradient>
+        </defs>
+        <rect width="1600" height="420" fill="url(#sky)" />
+        <!-- moon -->
+        <circle cx="1240" cy="112" r="52" fill="#e8f1fa" opacity=".95" />
+        <circle cx="1240" cy="112" r="70" fill="#cfe4f7" opacity=".18" />
+        <!-- far mountains (Bukhansan) -->
+        <path
+          d="M0 268 L140 196 L260 246 L400 176 L540 250 L700 200 L860 256 L1020 208 L1200 258 L1380 216 L1600 262 L1600 420 L0 420 Z"
+          fill="#1d3355" />
+        <!-- Namsan hill + N Seoul Tower -->
+        <path d="M880 300 Q1000 218 1120 300 Z" fill="#182a46" />
+        <rect x="996" y="150" width="8" height="90" fill="#182a46" />
+        <rect x="988" y="188" width="24" height="14" rx="4" fill="#182a46" />
+        <rect x="999" y="122" width="2.5" height="30" fill="#182a46" />
+        <circle cx="1000" cy="196" r="3" fill="#cfe4f7" />
+        <!-- city skyline -->
+        <g fill="#12233c">
+          <rect x="40" y="240" width="52" height="180" />
+          <rect x="110" y="272" width="40" height="148" />
+          <rect x="170" y="228" width="58" height="192" />
+          <rect x="248" y="288" width="34" height="132" />
+          <rect x="300" y="252" width="48" height="168" />
+          <rect x="368" y="212" width="30" height="208" />
+          <rect x="418" y="276" width="54" height="144" />
+          <rect x="492" y="238" width="40" height="182" />
+          <rect x="552" y="292" width="46" height="128" />
+          <rect x="618" y="248" width="34" height="172" />
+          <rect x="672" y="282" width="52" height="138" />
+          <rect x="744" y="232" width="38" height="188" />
+          <rect x="1140" y="270" width="46" height="150" />
+          <rect x="1206" y="238" width="36" height="182" />
+          <!-- Lotte World Tower -->
+          <path d="M1282 420 L1288 172 Q1302 150 1316 172 L1322 420 Z" />
+          <rect x="1350" y="262" width="48" height="158" />
+          <rect x="1418" y="292" width="38" height="128" />
+          <rect x="1476" y="246" width="56" height="174" />
+          <rect x="1552" y="284" width="48" height="136" />
+        </g>
+        <!-- lit windows -->
+        <g fill="#a9cdf0" opacity=".6">
+          <rect x="52" y="256" width="6" height="6" />
+          <rect x="70" y="278" width="6" height="6" />
+          <rect x="52" y="304" width="6" height="6" />
+          <rect x="182" y="244" width="6" height="6" />
+          <rect x="204" y="266" width="6" height="6" />
+          <rect x="182" y="296" width="6" height="6" />
+          <rect x="312" y="268" width="6" height="6" />
+          <rect x="330" y="296" width="6" height="6" />
+          <rect x="430" y="292" width="6" height="6" />
+          <rect x="452" y="316" width="6" height="6" />
+          <rect x="502" y="254" width="6" height="6" />
+          <rect x="518" y="282" width="6" height="6" />
+          <rect x="684" y="298" width="6" height="6" />
+          <rect x="702" y="322" width="6" height="6" />
+          <rect x="1152" y="286" width="6" height="6" />
+          <rect x="1216" y="254" width="6" height="6" />
+          <rect x="1296" y="220" width="5" height="6" />
+          <rect x="1304" y="250" width="5" height="6" />
+          <rect x="1296" y="286" width="5" height="6" />
+          <rect x="1362" y="278" width="6" height="6" />
+          <rect x="1488" y="262" width="6" height="6" />
+          <rect x="1506" y="290" width="6" height="6" />
+        </g>
+        <!-- Han river -->
+        <rect y="380" width="1600" height="40" fill="url(#river)" />
+        <g stroke="#a9cdf0" stroke-width="1.4" opacity=".4">
+          <path d="M60 392 h34" />
+          <path d="M196 400 h26" />
+          <path d="M330 390 h30" />
+          <path d="M1010 394 h22" />
+          <path d="M1300 390 h30" />
+          <path d="M1500 398 h26" />
+        </g>
+        <!-- title -->
+        <text x="72" y="120" font-family="'Baloo 2',cursive" font-weight="800" font-size="72" fill="#e9ecf2">ICML
+          2026</text>
+        <text x="76" y="158" font-family="'Space Mono',monospace" font-size="19" letter-spacing="6" fill="#a9d2f5">SEOUL
+          &#183; COEX &#183; JUL 6&#8211;11</text>
+      </svg>

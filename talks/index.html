@@ -1,252 +1,79 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Talks | Westlake ENCODE Lab </title> <meta name="author" content="Huan Wang"> <meta name="description" content="Invited talks and seminars at ENCODE Lab"> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
-  :root {
-    --max-content-width: 930px;
-  }
-</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/westlake_logo.png?v=185d16fdf455aac37e3389b52da4701e"> <link rel="stylesheet" href="/assets/css/main.css?v=9278fad11fbb7f97e25b00cf0f4948af"> <link rel="canonical" href="https://westlake-encode-lab.github.io/talks/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
-    initTheme();
-  </script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand logo" href="/" aria-label="ENCODE Lab — home"> <img src="/assets/img/EncodeLab_icon.svg" alt="ENCODE Lab" class="navbar-logo"> </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">People </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">News </a> </li> <li class="nav-item active"> <a class="nav-link" href="/talks/">Talks <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/gallery/">Gallery </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Talks</h1> <p class="post-description">Invited talks and seminars at ENCODE Lab</p> </header> <article> <style>
-  /* ---- Talk cards ---- */
-  .talk-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 1.5rem;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    background: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    border-radius: var(--card-radius);
-    box-shadow: var(--card-shadow);
-    transition: var(--card-transition);
-  }
-
-  .talk-item:hover {
-    transform: var(--card-lift);
-    box-shadow: var(--card-shadow-hover);
-  }
-
-  .talk-image {
-    width: 96px;
-    min-width: 96px;
-    height: 96px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  }
-
-  .talk-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .talk-title {
-    font-size: 1.18rem;
-    font-weight: 700;
-    line-height: 1.35;
-    margin: 0 0 0.4rem 0;
-    color: var(--global-theme-color);
-  }
-
-  .talk-speaker {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0.2rem 0;
-    color: var(--global-text-color);
-  }
-
-  .talk-affiliation {
-    font-size: 0.9rem;
-    color: var(--global-text-color-light);
-    margin: 0.1rem 0 0.6rem 0;
-  }
-
-  .talk-date,
-  .talk-meta {
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
-    margin: 0.28rem 0;
-  }
-
-  .talk-date i,
-  .talk-meta i {
-    color: var(--global-theme-color);
-    width: 1rem;
-    margin-right: 0.45rem;
-    text-align: center;
-  }
-
-  .talk-abstract {
-    font-size: 0.9rem;
-    line-height: 1.65;
-    margin: 0.8rem 0 0.25rem 0;
-    color: var(--global-text-color);
-  }
-
-  /* Pill-shaped link buttons */
-  .talk-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    margin-top: 0.85rem;
-  }
-
-  .talk-links a {
-    font-size: 0.82rem;
-    color: var(--global-theme-color);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    padding: 0.28rem 0.85rem;
-    text-decoration: none;
-    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  }
-
-  .talk-links a:hover {
-    background: var(--global-theme-color);
-    border-color: var(--global-theme-color);
-    color: #fff;
-  }
-
-  @media (max-width: 576px) {
-    .talk-item {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 1.25rem;
-    }
-
-    .talk-links {
-      justify-content: center;
-    }
-  }
-</style> <h2 id="past-talks">Past Talks</h2> <div class="talk-item"> <img class="talk-image" src="../assets/img/talks/xilin_chen.png" alt="Xilin Chen"> <div class="talk-content"> <h3 class="talk-title">On the Transfer and Development of Embodied Intelligent Systems</h3> <p class="talk-speaker">Xilin Chen, Professor</p> <p class="talk-affiliation">Institute of Computing Technology, Chinese Academy of Sciences</p> <p class="talk-date"><i class="fa-regular fa-calendar"></i> June 23, 2026, 14:00-15:30</p> <p class="talk-meta"><i class="fa-solid fa-location-dot"></i> E10-215, Yungu Campus</p> <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang</p> <p class="talk-meta"><i class="fa-solid fa-microphone"></i> Westlake AI Forum (8th) · Language: Chinese</p> <p class="talk-abstract"> Embodied intelligence is a bridge and engineering path connecting the physical and mental worlds, and has become an important means for exploring intelligence and its applications. However, the field faces challenges such as a wide variety of embodiments and highly task-dependent settings, which often lead to dependency and over-specialization that constrain progress. The key to overcoming these limitations lies in cross-embodiment transferability and cross-task developmental growth. This talk explores these problems, proposing hierarchical task decomposition and language–embodiment adaptation for transferability, and continual learning for growth. We present recent work probing the feasibility of these ideas, and outline open problems and future directions worth attention. </p> <div class="talk-links"> <a href="http://vipl.ict.ac.cn/people/xlchen/" title="Homepage" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-house"></i> Homepage</a> </div> </div> </div> <div class="talk-item"> <img class="talk-image" src="../assets/img/talks/disheng_liu.jpg" alt="Disheng Liu"> <div class="talk-content"> <h3 class="talk-title">Spatial Intelligence in Vision-Language Models: What It Is, What Works, and What's Next</h3> <p class="talk-speaker">Disheng Liu, Ph.D. Candidate</p> <p class="talk-affiliation">Case Western Reserve University</p> <p class="talk-date"><i class="fa-regular fa-calendar"></i> December 30, 2025, 11:00-12:00</p> <p class="talk-meta"><i class="fa-solid fa-location-dot"></i> Tencent Meeting 682-127-813</p> <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang</p> <p class="talk-abstract"> Vision-Language Models (VLMs) have achieved remarkable success but exhibit a fundamental deficiency in spatial intelligence, a critical capability for progress in embodied AI, autonomous driving, and spatially coherent generation. This talk provides a systematic review that spans the foundations of spatial intelligence in VLMs, root causes of spatial limitations, enhancement methodologies, evaluation protocols, and real-world applications. </p> <div class="talk-links"> <a href="https://dishengll.github.io/" title="Homepage" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-house"></i> Homepage</a> </div> </div> </div> <div class="talk-item"> <img class="talk-image" src="../assets/img/talks/yi_ma.png" alt="Yi Ma"> <div class="talk-content"> <h3 class="talk-title">Pursuing the Nature of Intelligence</h3> <p class="talk-speaker">Yi Ma, Chair Professor</p> <p class="talk-affiliation">School of CDS, Hong Kong University &amp; EECS Department, UC Berkeley</p> <p class="talk-date"><i class="fa-regular fa-calendar"></i> October 14, 2025, 15:30-17:00</p> <p class="talk-meta"><i class="fa-solid fa-location-dot"></i> E10-201, Yungu Campus</p> <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang, Yandong Wen</p> <p class="talk-abstract"> In this talk, we will try to clarify different levels and mechanisms of intelligence from historical, scientific, mathematical, and computational perspective. From the evolution of intelligence in nature, from phylogenetic, to ontogenetic, societal, and to scientific intelligence, we will try to shed light on how to understand the true nature of the seemingly dramatic advancements in the technologies of machine intelligence in the past decade. We achieve this goal by developing a principled mathematical framework to explain deductively the practices of deep learning from the first principle of pursuing low-dimensional distributions. </p> <div class="talk-links"> <a href="https://people.eecs.berkeley.edu/~yima/" title="Homepage" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-house"></i> Homepage</a> </div> </div> </div> <div class="talk-item"> <img class="talk-image" src="../assets/img/talks/yiyi_liao.png" alt="Yiyi Liao"> <div class="talk-content"> <h3 class="talk-title">3D Generative Models through the Lens of Coordinate Systems</h3> <p class="talk-speaker">Yiyi Liao, Assistant Professor</p> <p class="talk-affiliation">Zhejiang University</p> <p class="talk-date"><i class="fa-regular fa-calendar"></i> September 4, 2025, 16:00-17:00</p> <p class="talk-meta"><i class="fa-solid fa-location-dot"></i> Room E10-215, 2F, Yungu Campus</p> <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang</p> <p class="talk-abstract"> 3D content offers advantages such as real-time interactivity and plays an important role in AR/VR applications, where both generation and compression are critical for practical use. This talk explores 3D content generation from the perspective of coordinate systems, highlighting the distinctions and applications of absolute, observer, and intrinsic coordinates. We present object generation methods developed in the intrinsic coordinate system and scene generation approaches formulated in the observer coordinate system, providing a structured view of how coordinate choices shape 3D generative modeling. </p> <div class="talk-links"> <a href="https://yiyiliao.github.io/" title="Homepage" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-house"></i> Homepage</a> </div> </div> </div> <div class="talk-item"> <img class="talk-image" src="../assets/img/talks/ming_hsuan_yang.jpg" alt="Ming-Hsuan Yang"> <div class="talk-content"> <h3 class="talk-title">Recent Results on Multimodal Foundation Models</h3> <p class="talk-speaker">Ming-Hsuan Yang, Professor</p> <p class="talk-affiliation">University of California, Merced</p> <p class="talk-date"><i class="fa-regular fa-calendar"></i> August 9, 2025, 13:30-14:00</p> <p class="talk-meta"><i class="fa-solid fa-user"></i> Host: Huan Wang</p> <p class="talk-abstract"> Recent advances in vision and language models have significantly improved visual understanding and generation tasks. In this talk, I will present our latest research on designing effective tokenizers for transformers and our efforts to adapt frozen large language models for diverse vision tasks. These tasks include visual classification, video-text retrieval, visual captioning, visual question answering, visual grounding, video generation, stylization, outpainting, and video-to-audio conversion. If time permits, I will also discuss our recent findings on learning diffusion models and dynamic 3D vision. </p> <div class="talk-links"> <a href="https://faculty.ucmerced.edu/mhyang/" title="Homepage" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-house"></i> Homepage</a> </div> </div> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Huan Wang. Last updated: November 10, 2026. </div> </footer> <script>
-  window.alFolio = {
-    compatBootstrap: false
-  };
-</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
-    addBackToTop();
-  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
-// get the ninja-keys element
-const ninja = document.querySelector('ninja-keys');
-
-// add the home and posts menu items
-ninja.data = [{
-    id: "nav-home",
-    title: "Home",
-    section: "Navigation",
-    handler: () => {
-      window.location.href = "/";
-    },
-  },{id: "nav-people",
-          title: "People",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "publications by categories in reversed chronological order. generated by jekyll-scholar.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-news",
-          title: "News",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
-        },{id: "nav-talks",
-          title: "Talks",
-          description: "Invited talks and seminars at ENCODE Lab",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/talks/";
-          },
-        },{id: "nav-gallery",
-          title: "Gallery",
-          description: "Photos of ENCODE Lab activities and events.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/gallery/";
-          },
-        },{id: "news-new-start-our-lab-is-established-dr-huan-wang-joins-westlake-university-as-a-tenure-track-assistant-professor",
-          title: '[New Start] Our lab is established! Dr. Huan Wang joins Westlake University as...',
-          description: "",
-          section: "News",},{id: "news-cvpr-39-25-one-paper-accepted-to-cvpr-2025-congrats-to-keda-dycoke-and-all-collaborators",
-          title: '[CVPR&amp;#39;25] One paper accepted to CVPR 2025! Congrats to Keda (DyCoke) and all...',
-          description: "",
-          section: "News",},{id: "news-award-congrats-to-keda-tao-for-receiving-the-2025-westlake-university-xinrui-award-西湖大学博士研究生新锐奖-one-of-only-2-recipients-in-ai-among-all-2025-fall-phd-students-in-the-school-of-engineering",
-          title: '[Award] Congrats to Keda Tao for receiving the 2025 Westlake University Xinrui Award...',
-          description: "",
-          section: "News",},{id: "news-neurips-39-25-three-papers-accepted-to-neurips-2025-congrats-to-kele-holitom-kejia-poison-as-cure-ying-freqexit-and-all-collaborators",
-          title: '[NeurIPS&amp;#39;25] Three papers accepted to NeurIPS 2025! Congrats to Kele (HoliTom), Kejia (Poison...',
-          description: "",
-          section: "News",},{id: "news-funding-grateful-to-receive-the-caai-amp-amp-ant-group-research-fund-caai-蚂蚁科研基金-thanks-to-caai-and-ant-group-for-the-support",
-          title: '[Funding] Grateful to receive the CAAI &amp;amp;amp; Ant Group Research Fund (CAAI-蚂蚁科研基金). Thanks...',
-          description: "",
-          section: "News",},{id: "news-cpal-39-26-two-papers-accepted-to-cpal-2026-including-one-oral-congrats-to-mingluo-rose-haolei-erc-svd-and-all-collaborators",
-          title: '[CPAL&amp;#39;26] Two papers accepted to CPAL 2026, including one oral! Congrats to Mingluo...',
-          description: "",
-          section: "News",},{id: "news-iclr-39-26-four-papers-accepted-to-iclr-2026-congrats-to-junhan-obs-diff-xin-mergemix-sicheng-rewardmap-haopeng-arpg-and-all-collaborators-notably-junhan-zhu-is-the-first-westlake-undergraduate-to-publish-at-a-top-ml-ai-venue-as-a-sole-first-author",
-          title: '[ICLR&amp;#39;26] Four papers accepted to ICLR 2026! Congrats to Junhan (OBS-Diff), Xin (MergeMix),...',
-          description: "",
-          section: "News",},{id: "news-tmlr-39-26-our-first-systematic-survey-on-multimodal-long-context-token-compression-has-been-accepted-to-tmlr-congrats-to-kele-keda-and-all-collaborators-arxiv-code",
-          title: '[TMLR&amp;#39;26] Our first systematic survey on multimodal long-context token compression has been accepted...',
-          description: "",
-          section: "News",},{id: "news-cvpr-39-26-six-papers-accepted-to-cvpr-2026-congrats-to-keda-omnizip-xueyi-streamingtom-sicheng-reasonmap-hesong-earlytom-boya-pjd-zhizhen-qvggt-and-all-collaborators",
-          title: '[CVPR&amp;#39;26] Six papers accepted to CVPR 2026! Congrats to Keda (OmniZip), Xueyi (StreamingTOM),...',
-          description: "",
-          section: "News",},{id: "news-icml-39-26-four-papers-accepted-to-icml-2026-congrats-to-ying-arc-decode-amp-amp-prism-moe-wenjie-rlkv-kaiwen-sparsessm-and-all-collaborators",
-          title: '[ICML&amp;#39;26] Four papers accepted to ICML 2026! Congrats to Ying (ARC-Decode &amp;amp;amp; Prism-MoE),...',
-          description: "",
-          section: "News",},{id: "news-eccv-39-26-three-papers-accepted-to-eccv-2026-congrats-to-kejia-tars-ying-lisa-zefang-evar-and-all-collaborators",
-          title: '[ECCV&amp;#39;26] Three papers accepted to ECCV 2026! Congrats to Kejia (TARS), Ying (LISA),...',
-          description: "",
-          section: "News",},{id: "news-neurips-39-26-one-paper-accepted-to-neurips-2026-congrats-to-siyong-ranke-and-all-collaborators",
-          title: '[NeurIPS&amp;#39;26] One paper accepted to NeurIPS 2026! Congrats to Siyong (RankE) and all...',
-          description: "",
-          section: "News",},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%65%6E%63%6F%64%65%6C%61%62@%77%65%73%74%6C%61%6B%65.%65%64%75.%63%6E", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/westlake-encode-lab", "_blank");
-        },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
-
-</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
+<!doctype html>
+<html lang="en" data-root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Talks · Westlake ENCODE Lab</title>
+    <meta name="description" content="Efficient Neural Computing and Design at Westlake University." />
+    <link rel="canonical" href="https://westlake-encode-lab.github.io/talks/" />
+    <meta property="og:title" content="Talks · Westlake ENCODE Lab" />
+    <meta property="og:description" content="Efficient Neural Computing and Design at Westlake University." />
+    <meta property="og:image" content="https://westlake-encode-lab.github.io/assets/img/lab.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="../assets/img/westlake_logo.png" />
+    <script>
+      try {
+        const preference = localStorage.getItem("theme");
+        document.documentElement.dataset.theme = preference || "light";
+      } catch (error) {
+        if (error.name !== "SecurityError") {
+          throw error;
+        }
+        console.warn("Saved theme is unavailable. Using the default theme.", error);
+      }
+    </script>
+    <link rel="stylesheet" href="../assets/site.css" />
+    
+    <script defer src="../assets/search-index.js"></script>
+    <script defer src="../assets/site.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="masthead">
+      <div class="wrap mast">
+        <a class="brand" href="../index.html" aria-label="Westlake ENCODE Lab home">
+          <img src="../assets/img/westlake-university.png" alt="Westlake University" width="749" height="224" />
+          <img src="../assets/img/EncodeLab_icon.svg" alt="ENCODE Lab" width="568" height="96" />
+        </a>
+        <nav aria-label="Main navigation"><a href="../index.html">Home</a>
+<a href="../people/index.html">People</a>
+<a href="../publications/index.html">Publications</a>
+<a href="../news/index.html">News</a>
+<a href="../talks/index.html" aria-current="page">Talks</a>
+<a href="../gallery/index.html">Gallery</a></nav>
+        <div class="tools" hidden>
+          <button id="search-open" class="icon" aria-label="Search the site" title="Search (Ctrl or Command K)">
+            <span class="magnifier" aria-hidden="true"></span>
+          </button>
+          <button id="theme" class="icon" aria-label="Use dark theme" title="Use dark theme">
+            <span class="half-disc" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="wrap"><header class="page-heading"><h1>Talks</h1><p>Invited talks and seminars at Westlake ENCODE Lab.</p></header><article class="talk" id="on-the-transfer-and-development-of-embodied-intelligent-systems"><p class="talk-date"><time datetime="2026-06-23">June 23, 2026</time><span>14:00–15:30</span></p><h2>On the Transfer and Development of Embodied Intelligent Systems</h2><div class="talk-speaker"><strong><a href="https://vipl.ict.ac.cn/people/xlchen/">Xilin Chen</a></strong><span>Professor</span><p>Institute of Computing Technology, Chinese Academy of Sciences</p></div><ul class="talk-details"><li>E10-215, Yungu Campus</li><li>Host: Huan Wang</li><li>Westlake AI Forum (8th) · Language: Chinese</li></ul><div class="portrait"><img loading="lazy" src="../assets/img/talks/xilin_chen.png" alt="" width="128" height="160"></div><p class="talk-abstract">Embodied intelligence is a bridge and engineering path connecting the physical and mental worlds, and has become an important means for exploring intelligence and its applications. However, the field faces challenges such as a wide variety of embodiments and highly task-dependent settings, which often lead to dependency and over-specialization that constrain progress. The key to overcoming these limitations lies in cross-embodiment transferability and cross-task developmental growth. This talk explores these problems, proposing hierarchical task decomposition and language–embodiment adaptation for transferability, and continual learning for growth. We present recent work probing the feasibility of these ideas, and outline open problems and future directions worth attention.</p></article><article class="talk" id="spatial-intelligence-in-vision-language-models-what-it-is-what-works-and-what-s-next"><p class="talk-date"><time datetime="2025-12-30">December 30, 2025</time><span>11:00–12:00</span></p><h2>Spatial Intelligence in Vision-Language Models: What It Is, What Works, and What&#x27;s Next</h2><div class="talk-speaker"><strong><a href="https://dishengll.github.io/">Disheng Liu</a></strong><span>Ph.D. Candidate</span><p>Case Western Reserve University</p></div><ul class="talk-details"><li>Tencent Meeting 682-127-813</li><li>Host: Huan Wang</li></ul><div class="portrait"><img loading="lazy" src="../assets/img/talks/disheng_liu.jpg" alt="" width="128" height="160"></div><p class="talk-abstract">Vision-Language Models (VLMs) have achieved remarkable success but exhibit a fundamental deficiency in spatial intelligence, a critical capability for progress in embodied AI, autonomous driving, and spatially coherent generation. This talk provides a systematic review that spans the foundations of spatial intelligence in VLMs, root causes of spatial limitations, enhancement methodologies, evaluation protocols, and real-world applications.</p></article><article class="talk" id="pursuing-the-nature-of-intelligence"><p class="talk-date"><time datetime="2025-10-14">October 14, 2025</time><span>15:30–17:00</span></p><h2>Pursuing the Nature of Intelligence</h2><div class="talk-speaker"><strong><a href="https://people.eecs.berkeley.edu/~yima/">Yi Ma</a></strong><span>Chair Professor</span><p>School of CDS, Hong Kong University &amp; EECS Department, UC Berkeley</p></div><ul class="talk-details"><li>E10-201, Yungu Campus</li><li>Host: Huan Wang, Yandong Wen</li></ul><div class="portrait"><img loading="lazy" src="../assets/img/talks/yi_ma.png" alt="" width="128" height="160"></div><p class="talk-abstract">In this talk, we will try to clarify different levels and mechanisms of intelligence from historical, scientific, mathematical, and computational perspective. From the evolution of intelligence in nature, from phylogenetic, to ontogenetic, societal, and to scientific intelligence, we will try to shed light on how to understand the true nature of the seemingly dramatic advancements in the technologies of machine intelligence in the past decade. We achieve this goal by developing a principled mathematical framework to explain deductively the practices of deep learning from the first principle of pursuing low-dimensional distributions.</p></article><article class="talk" id="3d-generative-models-through-the-lens-of-coordinate-systems"><p class="talk-date"><time datetime="2025-09-04">September 4, 2025</time><span>16:00–17:00</span></p><h2>3D Generative Models through the Lens of Coordinate Systems</h2><div class="talk-speaker"><strong><a href="https://yiyiliao.github.io/">Yiyi Liao</a></strong><span>Assistant Professor</span><p>Zhejiang University</p></div><ul class="talk-details"><li>Room E10-215, 2F, Yungu Campus</li><li>Host: Huan Wang</li></ul><div class="portrait"><img loading="lazy" src="../assets/img/talks/yiyi_liao.png" alt="" width="128" height="160"></div><p class="talk-abstract">3D content offers advantages such as real-time interactivity and plays an important role in AR/VR applications, where both generation and compression are critical for practical use. This talk explores 3D content generation from the perspective of coordinate systems, highlighting the distinctions and applications of absolute, observer, and intrinsic coordinates. We present object generation methods developed in the intrinsic coordinate system and scene generation approaches formulated in the observer coordinate system, providing a structured view of how coordinate choices shape 3D generative modeling.</p></article><article class="talk" id="recent-results-on-multimodal-foundation-models"><p class="talk-date"><time datetime="2025-08-09">August 9, 2025</time><span>13:30–14:00</span></p><h2>Recent Results on Multimodal Foundation Models</h2><div class="talk-speaker"><strong><a href="https://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang</a></strong><span>Professor</span><p>University of California, Merced</p></div><ul class="talk-details"><li>Host: Huan Wang</li></ul><div class="portrait"><img loading="lazy" src="../assets/img/talks/ming_hsuan_yang.jpg" alt="" width="128" height="160"></div><p class="talk-abstract">Recent advances in vision and language models have significantly improved visual understanding and generation tasks. In this talk, I will present our latest research on designing effective tokenizers for transformers and our efforts to adapt frozen large language models for diverse vision tasks. These tasks include visual classification, video-text retrieval, visual captioning, visual question answering, visual grounding, video generation, stylization, outpainting, and video-to-audio conversion. If time permits, I will also discuss our recent findings on learning diffusion models and dynamic 3D vision.</p></article></main>
+    <footer class="footer">
+      <div class="wrap foot">
+        <div>
+          <strong>ENCODE Lab</strong>
+          <p><a href="https://en.westlake.edu.cn/">Westlake University</a> · School of Engineering</p>
+        </div>
+        <div class="footer-meta">
+          <div class="footer-contacts"><a href="https://github.com/westlake-encode-lab" class="social-link" aria-label="GitHub" title="GitHub"><svg class="link-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a><a href="mailto:encodelab@westlake.edu.cn" class="icon-link" aria-label="encodelab@westlake.edu.cn" title="encodelab@westlake.edu.cn"><svg class="link-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg><span>encodelab@westlake.edu.cn</span></a></div>
+          <p>Last updated <time datetime="2026-11-25">2026-11-25</time> · <a href="#top">Back to top</a></p>
+        </div>
+      </div>
+    </footer>
+    <dialog id="site-search" aria-labelledby="search-heading">
+      <div class="dialog-head">
+        <h2 id="search-heading">Search the lab</h2>
+        <button type="button" data-close>Close</button>
+      </div>
+      <label for="search-query">Pages, people, publications, talks and news</label>
+      <input type="search" id="search-query" autocomplete="off" placeholder="Start typing…" />
+      <p class="sr" id="search-status" role="status"></p>
+      <ul id="search-results"></ul>
+    </dialog>
+  </body>
+</html>
