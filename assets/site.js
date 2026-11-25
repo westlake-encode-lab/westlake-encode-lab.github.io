@@ -205,7 +205,6 @@ function initializeGallery() {
     const image = lightbox.querySelector("img");
     image.src = photo.href;
     image.alt = photo.querySelector("img").alt;
-    document.querySelector("#photo-title").textContent = image.alt;
     counter.textContent = `${currentIndex + 1} / ${photos.length}`;
     counter.setAttribute("aria-label", `Photo ${currentIndex + 1} of ${photos.length}`);
     originalLink.href = photo.href;

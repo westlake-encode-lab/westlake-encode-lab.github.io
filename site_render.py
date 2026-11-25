@@ -512,30 +512,24 @@ class SiteRenderer:
         return "".join(blocks)
 
     def _gallery_page(self) -> str:
-        captions = {
-            "photo1": "Lab members at dinner",
-            "photo2": "A group outing by the water",
-            "photo3": "A lab gathering around the table",
-            "photo4": "Lab members on campus",
-        }
-        figures = []
-        for path in sorted((self._root / "assets/img/gallery").iterdir()):
-            if path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".webp", ".avif"}:
-                continue
-            caption = escape(captions.get(path.stem, path.stem.replace("-", " ").replace("_", " ")))
+        photos = sorted(
+            path for path in (self._root / "assets/img/gallery").iterdir()
+            if path.is_file() and path.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".avif"}
+        )
+        thumbnails = []
+        for number, path in enumerate(photos, start=1):
             source = f"@/{escape(path.relative_to(self._root).as_posix())}"
-            figures.append(
-                f'<figure><a href="{source}" data-photo aria-label="View photo · {caption}">'
-                f'<img src="{source}" alt="{caption}" loading="lazy" decoding="async"></a>'
-                f"<figcaption>{caption}</figcaption></figure>"
+            thumbnails.append(
+                f'<a href="{source}" data-photo>'
+                f'<img src="{source}" alt="Gallery photo {number}" loading="lazy" decoding="async"></a>'
             )
-        images = "".join(figures)
+        images = "".join(thumbnails)
         return (
-            _heading("Gallery", "Life together, on campus and beyond. Select a photo to take a closer look.")
+            _heading("Gallery")
             + f'<div class="gallery">{images}</div>'
-            '<dialog id="lightbox" aria-labelledby="photo-title"><div class="dialog-head"><h2 id="photo-title"></h2>'
+            '<dialog id="lightbox" aria-label="Photo viewer">'
             '<div class="photo-actions"><a id="photo-original" target="_blank" rel="noopener">Open original</a>'
-            '<button type="button" data-close>Close</button></div></div><div class="photo-stage"><img alt=""></div>'
+            '<button type="button" data-close>Close</button></div><div class="photo-stage"><img alt=""></div>'
             '<div class="photo-controls">'
             '<button type="button" id="previous" aria-label="Previous photo">Previous</button>'
             '<output id="photo-count" aria-live="polite" aria-atomic="true"></output>'
