@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-root="$root">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>$title</title>
+    <meta name="description" content="$description" />
+    <link rel="canonical" href="$canonical" />
+    <meta property="og:title" content="$title" />
+    <meta property="og:description" content="$description" />
+    <meta property="og:image" content="$share_image" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="@/assets/img/westlake_logo.png" />
+    <script>
+      try {
+        const preference = localStorage.getItem("theme");
+        document.documentElement.dataset.theme = preference || "light";
+      } catch (error) {
+        if (error.name !== "SecurityError") {
+          throw error;
+        }
+        console.warn("Saved theme is unavailable. Using the default theme.", error);
+      }
+    </script>
+    <link rel="stylesheet" href="@/assets/site.css" />
+    $extra_styles
+    <script defer src="@/assets/search-index.js"></script>
+    <script defer src="@/assets/site.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="masthead">
+      <div class="wrap mast">
+        <a class="brand" href="@/index.html" aria-label="Westlake ENCODE Lab home">
+          <img src="@/assets/img/westlake-university.png" alt="Westlake University" width="749" height="224" />
+          <img src="@/assets/img/EncodeLab_icon.svg" alt="ENCODE Lab" width="568" height="96" />
+        </a>
+        <nav aria-label="Main navigation">$nav</nav>
+        <div class="tools" hidden>
+          <button id="search-open" class="icon" aria-label="Search the site" title="Search (Ctrl or Command K)">
+            <span class="magnifier" aria-hidden="true"></span>
+          </button>
+          <button id="theme" class="icon" aria-label="Use dark theme" title="Use dark theme">
+            <span class="half-disc" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="wrap">$body</main>
+    <footer class="footer">
+      <div class="wrap foot">
+        <div>
+          <strong>ENCODE Lab</strong>
+          <p><a href="https://en.westlake.edu.cn/">Westlake University</a> · School of Engineering</p>
+        </div>
+        <div class="footer-meta">
+          <div class="footer-contacts">$footer_contacts</div>
+          <p>Last updated <time datetime="$updated">$updated</time> · <a href="#top">Back to top</a></p>
+        </div>
+      </div>
+    </footer>
+    <dialog id="site-search" aria-labelledby="search-heading">
+      <div class="dialog-head">
+        <h2 id="search-heading">Search the lab</h2>
+        <button type="button" data-close>Close</button>
+      </div>
+      <label for="search-query">Pages, people, publications, talks and news</label>
+      <input type="search" id="search-query" autocomplete="off" placeholder="Start typing…" />
+      <p class="sr" id="search-status" role="status"></p>
+      <ul id="search-results"></ul>
+    </dialog>
+  </body>
+</html>

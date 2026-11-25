@@ -1,0 +1,534 @@
+[
+  {
+    "id": "eccv-2026",
+    "venue": "ECCV",
+    "year": "2026",
+    "source_url": "https://westlake-encode-lab.github.io/ECCV-26/",
+    "eyebrow": "ECCV 2026 · Malmö, Sweden · Sep 8-12",
+    "headline_html": "Efficient and trustworthy AI methods for <span>image generation and multimodal understanding.</span>",
+    "introduction_html": "Three accepted papers and one tutorial on efficient, trustworthy image generation and multimodal understanding.",
+    "tags": [],
+    "keywords": [],
+    "image": "assets/img/highlights/eccv-2026-malmo.jpg",
+    "image_width": 2200,
+    "image_height": 1238,
+    "image_alt": "Aerial view of Malmo waterfront, Turning Torso, and Oresund Bridge",
+    "image_credit": "Malmö photograph: © <a href=\"https://www.roletschek.at/\">Ralf Roletschek</a>, <a href=\"https://commons.wikimedia.org/wiki/File:19-07-12-Malm%C3%B6-DJI_0765-Turning-Torso-RalfR.jpg\">Wikimedia Commons</a>. Cropped version from our original ECCV page, licensed under <a href=\"https://creativecommons.org/licenses/by-sa/1.0/fi/\">CC BY-SA 1.0 Finland</a>.",
+    "papers_heading": "Three ECCV 2026 papers from ENCODE Lab.",
+    "papers": [
+      {
+        "paper_id": "li2026lisa",
+        "title": "LISA: Locality-Informed Speculative Decoding for Accelerating Autoregressive Image Generation",
+        "authors_html": "<a href=\"https://neuraliying.github.io/\" target=\"_blank\" rel=\"noopener\">Ying Li</a>, Siyong Jian, Zhaode Wang, Zhiwen Chen, Chengfei Lv, and <a href=\"https://huanwang.tech/\" target=\"_blank\" rel=\"noopener\">Huan Wang</a>",
+        "topic": "Speculative decoding for autoregressive image generation",
+        "resources": [
+          {
+            "label": "Project",
+            "url": "https://neuraliying.github.io/LISA"
+          },
+          {
+            "label": "Paper pending"
+          },
+          {
+            "label": "Code pending"
+          }
+        ],
+        "image": "assets/img/highlights/eccv-2026-lisa.jpg",
+        "image_alt": "LISA qualitative image-generation results and speedup comparison from Figure 1 of the paper",
+        "image_caption": "Paper Figure 1"
+      },
+      {
+        "paper_id": "wang2026evar",
+        "title": "EVAR: Edge Visual Autoregressive Models via Principled Pruning",
+        "authors_html": "<a href=\"https://aden9460.github.io/Zefang-Wang/\" target=\"_blank\" rel=\"noopener\">Zefang Wang</a>, <a href=\"https://neuraliying.github.io/\" target=\"_blank\" rel=\"noopener\">Ying Li</a>, Yanyu Li, <a href=\"https://mingluo-su.github.io/\" target=\"_blank\" rel=\"noopener\">Mingluo Su</a>, Simin Xu, Guanzhong Tian, and <a href=\"https://huanwang.tech/\" target=\"_blank\" rel=\"noopener\">Huan Wang</a>",
+        "topic": "Principled pruning for edge visual autoregressive models",
+        "resources": [
+          {
+            "label": "Project",
+            "url": "https://aden9460.github.io/EVAR/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/aden9460/EVAR-code"
+          },
+          {
+            "label": "arXiv pending"
+          }
+        ],
+        "image": "assets/img/highlights/eccv-2026-evar.jpg",
+        "image_alt": "EVAR edge deployment, generation samples, and pruning comparison from Figure 1 of the paper",
+        "image_caption": "Paper Figure 1"
+      },
+      {
+        "paper_id": "zhang2026tars",
+        "title": "TARS: MinMax Token-Adaptive Preference Strategy for Hallucination Reduction in MLLMs",
+        "authors_html": "<a href=\"https://kejiazhang-robust.github.io/Personal-Page/\" target=\"_blank\" rel=\"noopener\">Kejia Zhang</a>, <a href=\"https://kd-tao.github.io/\" target=\"_blank\" rel=\"noopener\">Keda Tao</a>, Zhiming Luo, Chang Liu, Jiasheng Tang, and <a href=\"https://huanwang.tech/\" target=\"_blank\" rel=\"noopener\">Huan Wang</a>",
+        "topic": "Token-adaptive preference optimization for MLLM grounding",
+        "resources": [
+          {
+            "label": "arXiv",
+            "url": "https://arxiv.org/abs/2507.21584"
+          },
+          {
+            "label": "PDF",
+            "url": "https://arxiv.org/pdf/2507.21584"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/KejiaZhang-Robust/TARS"
+          },
+          {
+            "label": "Website",
+            "url": "https://kejiazhang-robust.github.io/tars_web"
+          }
+        ],
+        "image": "assets/img/highlights/eccv-2026-tars.png",
+        "image_alt": "TARS project teaser"
+      }
+    ],
+    "people_kicker": "The ECCV 2026 Crew",
+    "people_title": "Meet our encoders",
+    "people_intro": "Five ENCODE Lab researchers contributing papers, presentations, and the tutorial.",
+    "people": [
+      {
+        "name": "Ying Li",
+        "photo": "assets/img/people/ying_li.jpg",
+        "contribution": "LISA · EVAR",
+        "role": "Postdoctoral Researcher",
+        "url": "https://neuraliying.github.io/"
+      },
+      {
+        "name": "Zefang Wang",
+        "photo": "assets/img/highlights/eccv-2026-zefang-wang.jpg",
+        "contribution": "EVAR",
+        "role": "ENCODE Lab Alumnus",
+        "url": "https://aden9460.github.io/Zefang-Wang/"
+      },
+      {
+        "name": "Kejia Zhang",
+        "photo": "assets/img/highlights/eccv-2026-kejia-zhang.jpg",
+        "contribution": "TARS",
+        "role": "Lead Author",
+        "url": "https://kejiazhang-robust.github.io/Personal-Page/"
+      },
+      {
+        "name": "Keda Tao",
+        "photo": "assets/img/highlights/eccv-2026-keda-tao.jpg",
+        "contribution": "TARS · Tutorial",
+        "role": "PhD Student",
+        "url": "https://kd-tao.github.io/"
+      },
+      {
+        "name": "Huan Wang",
+        "photo": "assets/img/people/huan_wang.jpg",
+        "contribution": "Tutorial",
+        "role": "Lab Director, Principal Investigator",
+        "url": "https://huanwang.tech/"
+      }
+    ],
+    "tutorial": {
+      "label": "ECCV 2026 Tutorial",
+      "title": "Efficient MLLM Inference via Approximate and Exact Computing.",
+      "url": "https://einfer-mllm.github.io/Tutorial-ECCV-26/",
+      "link_label": "Full Tutorial Page",
+      "summary": "Multimodal large language models are powerful but expensive to serve. This tutorial presents a systematic view of efficient inference through two complementary lenses: approximate computing that removes model and data redundancy while preserving practical utility, and exact computing that improves systems and hardware execution without changing model outputs.",
+      "facts": {
+        "Date": "Sep 8, 2026",
+        "Time": "9AM - 12PM",
+        "Location": "Malmömässan, K3 Room"
+      },
+      "topics_label": "Three main topics",
+      "topics": [
+        {
+          "title": "Model Compression",
+          "summary": "Quantization, sparsity, and low-rank decomposition for reducing model redundancy in MLLM inference."
+        },
+        {
+          "title": "Token Efficiency",
+          "summary": "Training and training-free compression methods for long multimodal inputs and autoregressive generation."
+        },
+        {
+          "title": "System-Level Design",
+          "summary": "Exact computing methods and inference frameworks that improve throughput and latency without changing the computed result."
+        }
+      ],
+      "schedule_label": "Morning program",
+      "schedule_title": "MLLM Inference Efficiency.",
+      "schedule_intro": "Three technical sessions, followed by questions and closing remarks.",
+      "schedule": [
+        {
+          "time": "09:00",
+          "title": "Opening Remarks",
+          "speaker": "Huan Wang"
+        },
+        {
+          "time": "09:10",
+          "title": "Approximate Computing I: Model Compression",
+          "speaker": "Sathya Narayanan Ravi"
+        },
+        {
+          "time": "10:00",
+          "title": "Approximate Computing II: Token Efficiency",
+          "speaker": "Bo Li"
+        },
+        {
+          "time": "10:50",
+          "title": "Coffee Break and Discussions",
+          "speaker": "Informal discussion"
+        },
+        {
+          "time": "11:00",
+          "title": "Exact Computing: System-Level Optimization",
+          "speaker": "Chenyang Zhao"
+        },
+        {
+          "time": "11:50",
+          "title": "Q&A and Closing Remarks",
+          "speaker": "Huan Wang"
+        }
+      ]
+    }
+  },
+  {
+    "id": "icml-2026",
+    "venue": "ICML",
+    "year": "2026",
+    "source_url": "https://huanwang.tech/confs/icml26.html",
+    "eyebrow": "ICML 2026 · Seoul, South Korea · Jul 6–11",
+    "headline_html": "빨리빨리, <span>ppalli-ppalli</span>.<br>AI Efficiency x Seoul!",
+    "introduction_html": "The <b>ENCODE Lab</b> at <b>Westlake University</b>, led by Dr. <a href=\"https://huanwang.tech/\" target=\"_blank\" rel=\"noopener\">Huan Wang</a>, will present 4 papers accepted to ICML 2026 — spanning speculative decoding, RL-guided KV cache compression, dense-to-MoE conversion for visual generation, and one-shot pruning of state-space models. See you at COEX!",
+    "tags": [
+      "Efficient AI",
+      "LLM Inference",
+      "Generative AI",
+      "Model Compression"
+    ],
+    "keywords": [
+      "speculative decoding",
+      "KV cache compression",
+      "reasoning LLMs",
+      "dense-to-MoE",
+      "visual autoregressive generation",
+      "SSM / Mamba pruning"
+    ],
+    "image": "assets/img/highlights/icml-2026-seoul.svg",
+    "image_width": 1600,
+    "image_height": 420,
+    "image_alt": "ICML 2026 · Seoul, South Korea",
+    "image_credit": "",
+    "papers_heading": "Accepted papers",
+    "papers": [
+      {
+        "paper_id": "li2026prismmoe",
+        "title": "Prism-MoE: Efficient Dense-to-MoE Conversion for Visual Autoregressive Generation",
+        "authors_html": "<b>Ying Li</b>, Zefang Wang, Zhaode Wang, Zhiwen Chen, Chengfei Lv, Huan Wang",
+        "topic": "ICML 2026 · Generative · MoE",
+        "resources": [
+          {
+            "label": "ICML",
+            "url": "https://icml.cc/virtual/2026/poster/65615"
+          }
+        ],
+        "summary_html": "Transforms pretrained dense visual autoregressive models into sparse MoE models at low cost: trajectory-consistent initialization casts expert init as a principled decomposition that preserves the pretrained generation trajectory, and confidence-adaptive sparse fine-tuning aligns expert specialization with visual token information density. Under 10% of the standard training budget, dense-level quality with only 37.5% active parameters.",
+        "session": "TUE · Jul 7 · 2:00–3:45 PM | Hall A · Poster #2611"
+      },
+      {
+        "paper_id": "li2026arcdecode",
+        "title": "ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance",
+        "authors_html": "<b>Ying Li</b>, Zhaode Wang, Zhiwen Chen, Chengfei Lv, Huan Wang",
+        "topic": "ICML 2026 · Speculative Decoding",
+        "resources": [
+          {
+            "label": "ICML",
+            "url": "https://icml.cc/virtual/2026/poster/66788"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://neuraliying.github.io/ARC-Decode/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/NeuraLiying/ARC-Decode"
+          }
+        ],
+        "summary_html": "Speculative decoding under sampling (T&gt;0) over-rejects low-risk drafts, so real speedups lag greedy decoding. ARC-Decode is a training-free relaxed-acceptance rule: a Jensen–Shannon-divergence risk bound plus confidence-based pre-verification accepts drafts that provably preserve the target distribution. Plugged into EAGLE-3, up to 1.6× end-to-end speedup under sampling with negligible quality change.",
+        "session": "TUE · Jul 7 · 2:00–3:45 PM | Hall A · Poster #2815"
+      },
+      {
+        "paper_id": "du2026rlkv",
+        "title": "RLKV: Which Heads Matter for Reasoning? RL-Guided KV Cache Compression",
+        "authors_html": "<b>Wenjie Du</b>, Li Jiang, Keda Tao, Xue Liu, Huan Wang",
+        "topic": "ICML 2026 · KV Cache Compression",
+        "resources": [
+          {
+            "label": "ICML",
+            "url": "https://icml.cc/virtual/2026/poster/62599"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://kurt232.github.io/RLKV/"
+          },
+          {
+            "label": "ArXiv",
+            "url": "https://arxiv.org/abs/2510.08525"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/kurt232/RLKV"
+          }
+        ],
+        "summary_html": "Reasoning LLMs are fragile to KV cache compression during long chain-of-thought generation. RLKV uses reinforcement-learning probing to identify the small set of attention heads that keep reasoning coherent, giving them full KV cache while aggressively compressing the rest — 20–50% cache reduction at near-lossless accuracy and up to 1.21× speedup.",
+        "session": "TUE · Jul 7 · 10:30 AM–12:15 PM | Hall A · Poster #1610"
+      },
+      {
+        "paper_id": "tuo2026sparsessm",
+        "title": "SparseSSM: Efficient Selective Structured State Space Models Can Be Pruned in One-Shot",
+        "authors_html": "<b>Kaiwen Tuo</b>, Huan Wang",
+        "topic": "ICML 2026 · Pruning · SSM",
+        "resources": [
+          {
+            "label": "ICML",
+            "url": "https://icml.cc/virtual/2026/poster/64442"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://cfintech.github.io/SparseSSM-Web/"
+          },
+          {
+            "label": "ArXiv",
+            "url": "https://arxiv.org/abs/2506.09613"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/CFinTech/SparseSSM"
+          }
+        ],
+        "summary_html": "The first training-free pruning framework extending optimal brain surgeon (OBS) to state-space architectures: a second-order saliency score aggregates Hessian-trace information across time steps for the time-shared SSM transition matrix, with component sensitivity analysis guiding FFN pruning. Prunes 50% of Mamba SSM weights with no zero-shot accuracy loss and no fine-tuning — state-of-the-art for Mamba-based LLMs.",
+        "session": "WED · Jul 8 · 2:30–4:15 PM | Hall A · Poster #1014"
+      }
+    ],
+    "people_kicker": "The crew heading to Seoul",
+    "people_title": "Meet our encoders at ICML’26.",
+    "people_intro": "The students presenting our works at ICML 2026 (tap a face to visit their personal webpage).",
+    "people": [
+      {
+        "name": "Ying Li",
+        "photo": "assets/img/highlights/icml-2026-ying-li.jpg",
+        "contribution": "Prism-MoE · ARC-Decode",
+        "url": "https://neuraliying.github.io/"
+      },
+      {
+        "name": "Wenjie Du",
+        "photo": "assets/img/highlights/icml-2026-wenjie-du.jpg",
+        "contribution": "RLKV",
+        "url": "https://kurt232.github.io/"
+      },
+      {
+        "name": "Kaiwen Tuo",
+        "photo": "assets/img/highlights/icml-2026-kaiwen-tuo.jpg",
+        "contribution": "SparseSSM",
+        "url": "https://scholar.google.com/citations?user=9ZvQ8bQAAAAJ&hl=zh-CN"
+      }
+    ],
+    "host": {
+      "name": "Dr. Huan Wang",
+      "contribution": "PI",
+      "url": "https://huanwang.tech/",
+      "photo": "assets/img/people/huan_wang.jpg"
+    }
+  },
+  {
+    "id": "cvpr-2026",
+    "venue": "CVPR",
+    "year": "2026",
+    "source_url": "https://huanwang.tech/confs/cvpr26.html",
+    "eyebrow": "CVPR 2026 · Denver, Colorado · Jun 3–7",
+    "headline_html": "Thin air, <span>dense ideas</span>.<br>See you in altitude.",
+    "introduction_html": "The <b>ENCODE Lab</b> at <b>Westlake University</b> (advised by Dr. <a href=\"https://huanwang.tech/\" target=\"_blank\" rel=\"noopener\">Huan Wang</a>) has <b>6 papers accepted to CVPR 2026</b> — spanning efficient multimodal LLMs, visual reasoning, autoregressive generation, and 3D model quantization. Four of the six are led by first-time authors. See you in Denver!",
+    "tags": [
+      "Efficient AI",
+      "Multimodal AI",
+      "Generative AI",
+      "Computer Vision"
+    ],
+    "keywords": [
+      "token compression",
+      "streaming video / omni LLMs",
+      "visual reasoning",
+      "autoregressive image generation",
+      "quantization",
+      "VGGT / 3D"
+    ],
+    "image": "assets/img/highlights/cvpr-2026-denver.jpg",
+    "image_width": 1100,
+    "image_height": 739,
+    "image_alt": "CVPR 2026 — Denver, Colorado, June 3–7, 2026",
+    "image_credit": "",
+    "papers_heading": "Accepted papers",
+    "papers": [
+      {
+        "paper_id": "tao2026omnizip",
+        "title": "OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal LLMs",
+        "authors_html": "<b>Keda Tao</b>, Kele Shao, Bohan Yu, Weiqiang Wang, Jian Liu, Huan Wang",
+        "topic": "CVPR 2026 · Token Compression",
+        "resources": [
+          {
+            "label": "ArXiv",
+            "url": "https://arxiv.org/abs/2511.14582"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/KD-TAO/OmniZip"
+          }
+        ],
+        "summary_html": "A training-free, “listen-to-prune” framework for omnimodal LLMs: salient audio tokens guide the pruning of video tokens, so audio and video are compressed jointly. Up to ~3.4× faster inference and ~1.4× lower memory with near-baseline accuracy and no retraining.",
+        "session": "SAT · Jun 6 · 11:45 AM–1:45 PM | ExHall F · Poster #320"
+      },
+      {
+        "paper_id": "wang2026earlytom",
+        "title": "EarlyTom: Early Token Compression Completes Fast Video Understanding",
+        "authors_html": "<b>Hesong Wang</b><span>*</span>, <b>Xin Jin</b><span>*</span>, Lu Lu, Chenhaowen Li, Jian Chen, Qiang Liu, Huan Wang &#160;<span>*</span><span>equal contribution</span>",
+        "topic": "CVPR 2026 · Token Compression",
+        "resources": [
+          {
+            "label": "ArXiv",
+            "url": "https://arxiv.org/abs/2605.30010"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/viridisGreen/EarlyTom"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://viridisgreen.github.io/EarlyTom/"
+          }
+        ],
+        "summary_html": "Vision encoding itself dominates time-to-first-token, so EarlyTom does training-free token compression <i>early</i> — inside the vision encoder — rather than only late in prefilling. With a decoupled spatial token-selection strategy it cuts TTFT by up to 2.65× and FLOPs by up to 61% on LLaVA-OneVision-7B at near-full-token accuracy.",
+        "session": "SUN · Jun 7 · 3:30–5:30 PM | ExHall A · Poster #405"
+      },
+      {
+        "paper_id": "chen2026streamingtom",
+        "title": "StreamingTOM: Streaming Token Compression for Efficient Video Understanding",
+        "authors_html": "<b>Xueyi Chen</b>, Keda Tao, Kele Shao, Huan Wang",
+        "topic": "CVPR 2026 · Streaming Video",
+        "resources": [
+          {
+            "label": "ArXiv",
+            "url": "https://arxiv.org/abs/2510.18269"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/YIGE24/StreamingTOM"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://yige24.github.io/StreamingTOM/"
+          }
+        ],
+        "summary_html": "A training-free, two-stage framework for streaming video. Causal Temporal Reduction caps per-frame tokens before the LLM; Online Quantized Memory keeps the KV-cache in 4-bit with on-demand retrieval. ~15.7× KV-cache compression and ~2× faster time-to-first-token vs. prior SOTA, with memory bounded regardless of stream length.",
+        "session": "SAT · Jun 6 · 4:45–6:45 PM | ExHall A & F · Poster #302"
+      },
+      {
+        "paper_id": "pan2026qvggt",
+        "title": "QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer",
+        "authors_html": "<b>Zhizhen Pan</b>, Hesong Wang, Huan Wang",
+        "topic": "CVPR 2026 · Quantization · 3D",
+        "resources": [
+          {
+            "label": "Code",
+            "url": "https://github.com/DDsacu/QVGGT"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://ddsacu.github.io/QVGGT/"
+          }
+        ],
+        "summary_html": "The first post-training quantization framework for VGGT-style feed-forward 3D reconstruction. Per-block sensitivity drives mixed-precision allocation; token filtering with camera-information compensation tames outlier camera/register tokens; a task-aware scale search preserves cross-head geometric consistency. Near-lossless W4A16 with 3–4.9× memory reduction and up to 2.8× speedup — bringing 3D perception to edge devices.",
+        "session": "FRI · Jun 5 · 4:00–6:00 PM | ExHall A & F · Poster #34"
+      },
+      {
+        "paper_id": "liao2026jacobi",
+        "title": "Parallel Jacobi Decoding for Fast Autoregressive Image Generation",
+        "authors_html": "<b>Boya Liao</b>, Ying Li, Siyong Jian, Huan Wang",
+        "topic": "CVPR 2026 · Generative · Fast Inference",
+        "resources": [
+          {
+            "label": "Webpage",
+            "url": "https://boyaliao.github.io/PJD/"
+          }
+        ],
+        "summary_html": "Autoregressive image models are slow because they emit tokens one at a time. PJD reframes decoding as a Jacobi iteration that refines many tokens in parallel, cutting the number of sequential forward passes needed per image and speeding up generation.",
+        "session": "FRI · Jun 5 · 4:00–6:00 PM | ExHall A & F · Poster #171"
+      },
+      {
+        "paper_id": "feng2026reasonmap",
+        "title": "ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps",
+        "authors_html": "<b>Sicheng Feng</b>, Song Wang, Shuyi Ouyang, Lingdong Kong, Zikai Song, Jianke Zhu, Huan Wang, Xinchao Wang",
+        "topic": "CVPR 2026 · Visual Reasoning Benchmark",
+        "resources": [
+          {
+            "label": "ArXiv",
+            "url": "https://arxiv.org/abs/2505.18675"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/fscdc/ReasonMap"
+          },
+          {
+            "label": "Webpage",
+            "url": "https://fscdc.github.io/ReasonMap/"
+          }
+        ],
+        "summary_html": "A benchmark of 1,008 human-verified QA pairs over high-resolution transit maps from 30 cities in 13 countries, jointly probing fine-grained visual understanding and spatial reasoning. A two-level metric scores answer correctness and route quality; evaluating ~16 MLLMs surfaces a counterintuitive open- vs. closed-source reasoning-model gap.",
+        "session": "SUN · Jun 7 · 3:30–5:30 PM | ExHall A · Poster #454"
+      }
+    ],
+    "people_kicker": "The crew heading to Denver",
+    "people_title": "Meet our encoders at CVPR’26.",
+    "people_intro": "The students presenting our works at CVPR 2026 (tap a face to visit their personal webpage).",
+    "people": [
+      {
+        "name": "Keda Tao",
+        "photo": "assets/img/highlights/cvpr-2026-keda-tao.jpg",
+        "contribution": "OmniZip",
+        "url": "https://kd-tao.github.io/"
+      },
+      {
+        "name": "Hesong Wang",
+        "photo": "assets/img/highlights/cvpr-2026-hesong-wang.jpg",
+        "contribution": "EarlyTom",
+        "url": "https://viridisgreen.github.io/"
+      },
+      {
+        "name": "Xueyi Chen",
+        "photo": "assets/img/highlights/cvpr-2026-xueyi-chen.jpg",
+        "contribution": "StreamingTOM",
+        "url": "https://yige24.github.io/"
+      },
+      {
+        "name": "Xin Jin",
+        "photo": "assets/img/highlights/cvpr-2026-xin-jin.jpg",
+        "contribution": "EarlyTom",
+        "url": "https://jinxins.github.io/"
+      },
+      {
+        "name": "Zhizhen Pan",
+        "photo": "assets/img/highlights/cvpr-2026-zhizhen-pan.jpg",
+        "contribution": "QVGGT",
+        "url": "https://ddsacu.github.io/"
+      },
+      {
+        "name": "Boya Liao",
+        "photo": "assets/img/highlights/cvpr-2026-boya-liao.jpg",
+        "contribution": "Parallel Jacobi Decoding",
+        "url": "https://boyaliao.github.io/"
+      },
+      {
+        "name": "Sicheng Feng",
+        "photo": "assets/img/highlights/cvpr-2026-sicheng-feng.jpg",
+        "contribution": "ReasonMap",
+        "url": "https://fscdc.github.io/"
+      }
+    ]
+  }
+]

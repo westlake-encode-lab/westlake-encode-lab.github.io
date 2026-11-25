@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Westlake ENCODE Lab · 全站设计预览</title>
+    <style>
+      @font-face {
+        font-family: Lato;
+        src: url("assets/fonts/lato-regular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: Lato;
+        src: url("assets/fonts/lato-semibold.ttf");
+        font-weight: 600;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font:
+          16px/1.6 Lato,
+          -apple-system,
+          sans-serif;
+        margin: 0;
+        color: #243344;
+        background: #f4f6f9;
+      }
+      header {
+        background: white;
+        border-bottom: 1px solid #dde4ec;
+        padding: 22px 5%;
+      }
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+      }
+      header p {
+        color: #5c6a79;
+        margin: 5px 0 16px;
+      }
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+      .controls button {
+        font: inherit;
+        padding: 7px 16px;
+        min-height: 44px;
+        border: 1px solid #cad5e0;
+        border-radius: 6px;
+        color: #31506c;
+        background: white;
+        cursor: pointer;
+      }
+      .controls button[aria-pressed="true"] {
+        background: #155d95;
+        border-color: #155d95;
+        color: white;
+      }
+      .controls a {
+        margin-left: auto;
+      }
+      a {
+        color: #0865a5;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      :focus-visible {
+        outline: 3px solid #0865a5;
+        outline-offset: 3px;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 24px;
+        margin-top: 16px;
+      }
+      main {
+        padding: 28px 4%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 28px;
+      }
+      article {
+        background: white;
+        border: 1px solid #dce3ea;
+        border-radius: 10px;
+        overflow: hidden;
+        min-width: 0;
+      }
+      .card-head {
+        padding: 15px 18px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        border-bottom: 1px solid #dce3ea;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .card-head a {
+        font-size: 14px;
+      }
+      .viewport {
+        position: relative;
+        overflow: hidden;
+        margin-inline: auto;
+        background: white;
+      }
+      iframe {
+        width: 1100px;
+        height: 900px;
+        border: 0;
+        display: block;
+        transform-origin: top left;
+      }
+      @media (max-width: 900px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Westlake ENCODE Lab · 全站设计预览</h1>
+      <p>六个页面均可在预览框内滚动和点击。点击“单独打开”可以查看完整页面。</p>
+      <div class="controls" aria-label="预览尺寸">
+        <button data-width="1100" aria-pressed="true">电脑 · 1100 px</button>
+        <button data-width="390" aria-pressed="false">手机 · 390 px</button>
+        <a href="index.html">进入网站</a>
+      </div>
+      <nav aria-label="页面总览">
+        <a href="#home">首页</a><a href="#people">成员</a><a href="#publications">论文</a><a href="#news">新闻</a
+        ><a href="#talks">讲座</a><a href="#gallery">相册</a>
+        <a href="highlights/eccv-2026/index.html" target="_blank" rel="noopener">ECCV 2026 专题预览</a>
+        <a href="highlights/icml-2026/index.html" target="_blank" rel="noopener">ICML 2026 专题预览</a>
+        <a href="highlights/cvpr-2026/index.html" target="_blank" rel="noopener">CVPR 2026 专题预览</a>
+      </nav>
+    </header>
+    <main>
+      <article id="home">
+        <div class="card-head">
+          <h2>首页 · Home</h2>
+          <a href="index.html" target="_blank" rel="noopener">单独打开</a>
+        </div>
+        <div class="viewport"><iframe src="index.html" title="首页预览"></iframe></div>
+      </article>
+      <article id="people">
+        <div class="card-head">
+          <h2>成员 · People</h2>
+          <a href="people/index.html" target="_blank" rel="noopener">单独打开</a>
+        </div>
+        <div class="viewport"><iframe src="people/index.html" title="成员预览" loading="lazy"></iframe></div>
+      </article>
+      <article id="publications">
+        <div class="card-head">
+          <h2>论文 · Publications</h2>
+          <a href="publications/index.html" target="_blank" rel="noopener">单独打开</a>
+        </div>
+        <div class="viewport"><iframe src="publications/index.html" title="论文预览" loading="lazy"></iframe></div>
+      </article>
+      <article id="news">
+        <div class="card-head">
+          <h2>新闻 · News</h2>
+          <a href="news/index.html" target="_blank" rel="noopener">单独打开</a>
+        </div>
+        <div class="viewport"><iframe src="news/index.html" title="新闻预览" loading="lazy"></iframe></div>
+      </article>
+      <article id="talks">
+        <div class="card-head">
+          <h2>讲座 · Talks</h2>
+          <a href="talks/index.html" target="_blank" rel="noopener">单独打开</a>
+        </div>
+        <div class="viewport"><iframe src="talks/index.html" title="讲座预览" loading="lazy"></iframe></div>
+      </article>
+      <article id="gallery">
+        <div class="card-head">
+          <h2>相册 · Gallery</h2>
+          <a href="gallery/index.html" target="_blank" rel="noopener">单独打开</a>
+        </div>
+        <div class="viewport"><iframe src="gallery/index.html" title="相册预览" loading="lazy"></iframe></div>
+      </article>
+    </main>
+    <script>
+      let width = 1100;
+      const frames = [...document.querySelectorAll(".viewport")];
+      function resize() {
+        const height = width === 390 ? 844 : 900;
+        for (const frame of frames) {
+          const available = frame.parentElement.clientWidth;
+          const scale = Math.min(1, available / width);
+          const iframe = frame.querySelector("iframe");
+          frame.style.width = width * scale + "px";
+          frame.style.height = height * scale + "px";
+          iframe.style.width = width + "px";
+          iframe.style.height = height + "px";
+          iframe.style.transform = "scale(" + scale + ")";
+        }
+      }
+      for (const button of document.querySelectorAll("[data-width]")) {
+        button.addEventListener("click", () => {
+          width = Number(button.dataset.width);
+          for (const other of document.querySelectorAll("[data-width]"))
+            other.setAttribute("aria-pressed", String(other === button));
+          resize();
+        });
+      }
+      new ResizeObserver(resize).observe(document.querySelector("main"));
+      resize();
+    </script>
+  </body>
+</html>

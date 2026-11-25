@@ -1,56 +1,19 @@
-# Agent Guidelines for al-folio (v1.x)
+# Westlake ENCODE Lab website
 
-`al-folio` is the **starter repo** for the pluginized v1 architecture.
+The site uses Python 3.12 or newer and the standard library. Run `python3 build.py --preview` for local review. Generated output lives in `_site/`.
 
-## Read This First
+Apply the user's code conventions to project-owned Python. Annotate every function parameter and return value, dataclass field and instance attribute. Use native types, descriptive names, private helper prefixes, one-line English module docstrings and 120-character lines. Leave one blank line between top-level definitions and between methods. Keep `__main__` blocks limited to one entry-point call. Catch specific errors only at a boundary that can act on them.
 
-- Start with `.github/copilot-instructions.md` for architecture, ownership boundaries, and CI expectations.
-- Use `docs/BOUNDARIES.md` as the source of truth for starter-vs-plugin ownership.
-- Use `.agents/skills/al-folio-bootstrap/SKILL.md` for new-site setup tasks.
-- Use `.agents/skills/al-folio-v1-migration/SKILL.md` for customized fork migrations.
-- `.codex/skills` and `.claude/skills` are symlinks to `.agents/skills` for agent-specific discovery.
+Keep data loading, page rendering and filesystem publication in their owning modules. Preserve public URLs, publication IDs and lab-owned media. Keep third-party icons and fonts in their source formats with their licenses. Keep comments in Python code only.
 
-## What This Repo Owns
+Before delivery, read the modified source and run the build documented in README.md. For changes to layouts, links or interactions, verify the affected pages in the generated site. Report which checks ran.
 
-- Starter wiring (`Gemfile`, `_config.yml`)
-- Starter content and documentation
-- Cross-plugin integration tests
-- Visual regression tests
+Keep publication metadata to title, authors, venue and year. Resource links are optional. Use one social-link order across profiles.
 
-Runtime/component logic belongs in owning plugin repos (`al_folio_core`, `al_folio_distill`, `al_search`, `al_icons`, `al_cookie`, and other `al-*` gems).
-Long-form documentation lives in `docs/`; keep this root file as the short discovery entry point for coding agents.
+Group papers by year, newest first. Within each year, list accepted papers by acceptance date (publication date if unknown), then preprints by first submission date. Verify acceptance or publication timing before inserting a paper; adding it today does not make it the newest result. Preserve the precision of the source, distinguish news posting dates from conference decisions, and never use an arXiv revision date as an acceptance date.
 
-## Validated Local Command Set
+Conference highlights reference existing publication IDs for scope validation, but preserve the presentation content from each recorded source page. Keep its titles, author emphasis and equal-contribution markers, summaries, resource links and pending statuses, schedules, and participant lists. Do not overwrite these with the main bibliography or other websites. New highlight records automatically appear in the homepage's Conference highlights section; also link the corresponding announcement.
 
-Run from repo root:
+Derive venue colors from their category; arXiv resources do not turn accepted papers into preprints. Keep all person portraits the same size at a given viewport, including the principal investigator, using the shared 4:5 portrait frame on People, Talks and conference pages. Landscape photo thumbnails and research-figure frames use the shared landscape token. Research figures must remain fully visible inside their uniform frames. Conference cover images and banners use their intrinsic aspect ratios with automatic height; never force them into a golden-ratio container that adds blank space or crops embedded text.
 
-```bash
-npm ci
-npm run lint:prettier
-npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
-bash test/integration_comments.sh
-bash test/integration_plugin_toggles.sh
-bash test/integration_distill.sh
-bash test/integration_bootstrap_compat.sh
-bash test/integration_upgrade_cli.sh
-npx playwright install chromium webkit
-npm run test:visual
-bundle exec al-folio upgrade audit
-bundle exec al-folio upgrade overrides audit
-bundle exec al-folio upgrade report
-docker compose up -d
-curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
-docker compose logs --tail=80
-docker compose down
-```
-
-Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-local `/tmp/_site` to avoid host bind-mount write deadlocks.
-
-## Agent Routing Rules
-
-- If change is starter wiring/docs/integration/visual testing: edit here.
-- If change is runtime feature behavior: route to owning plugin repo.
-- Do not add starter-local npm build scripts for theme/runtime assets.
-- Keep docs aligned with pluginized v1 ownership.
-- If you create or keep local overrides of plugin-owned files, run `bundle exec al-folio upgrade overrides audit` and commit `.al-folio-overrides.yml` after review.
+The user excluded FreeBlend, Proteus, LightDP, MobileSCI and SSD. Do not re-add them. Corresponding authorship, last authorship and university affiliation alone do not establish that a paper belongs in the lab's publication collection.

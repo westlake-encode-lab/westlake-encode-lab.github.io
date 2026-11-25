@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.nsfc.gov.cn/",
+    "name": "National Natural Science Foundation of China",
+    "photo": "assets/img/sponsors/nsfc.png"
+  },
+  {
+    "url": "https://kjt.zj.gov.cn/",
+    "name": "Zhejiang Provincial Department of Science and Technology",
+    "photo": "assets/img/sponsors/zjst.png"
+  },
+  {
+    "url": "https://www.caai.cn/",
+    "name": "Chinese Association for Artificial Intelligence",
+    "photo": "assets/img/sponsors/caai.png"
+  },
+  {
+    "url": "https://www.antgroup.com/",
+    "name": "Ant Group",
+    "photo": "assets/img/sponsors/ant.png"
+  },
+  {
+    "url": "https://www.alibabacloud.com/",
+    "name": "Alibaba Cloud",
+    "photo": "assets/img/sponsors/alicloud.png"
+  }
+]

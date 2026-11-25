@@ -1,0 +1,30 @@
+<div class="highlight-page" data-category="$category">
+  <header class="highlight-hero">
+    <div>
+      <p class="eyebrow">$eyebrow</p>
+      <h1>$headline</h1>
+      <p class="highlight-introduction">$introduction</p>
+      $tags
+    </div>
+    <div class="highlight-event">$event_detail</div>
+  </header>
+  <nav class="highlight-nav" aria-label="Conference highlights">
+    <a href="#research">Papers</a>$tutorial_nav$people_nav
+    <a href="@/publications/index.html">All publications</a>
+  </nav>
+  <figure class="highlight-cover">
+    <img src="@/$image" alt="$image_alt" width="$image_width" height="$image_height" fetchpriority="high" />
+    <figcaption>$event</figcaption>
+  </figure>
+  $keywords
+  <section id="research" class="highlight-section">
+    <div class="highlight-section-heading"><h2>$papers_heading</h2></div>
+    <div class="highlight-papers" data-layout="$paper_layout">$papers</div>
+  </section>
+  $tutorial $people
+  <div class="highlight-outro">
+    <a href="@/publications/index.html">All publications</a>
+    <a href="@/people/index.html">Meet the lab</a>
+  </div>
+  <p class="highlight-credit">$image_credit</p>
+</div>

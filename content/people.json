@@ -1,0 +1,328 @@
+[
+  {
+    "group": "Principal Investigator",
+    "people": [
+      {
+        "name": "Huan Wang",
+        "photo": "assets/img/people/huan_wang.jpg",
+        "bio": [
+          "Assistant Professor",
+          "PhD@NEU, MS&BS@ZJU"
+        ],
+        "links": {
+          "Homepage": "https://huanwang.tech/",
+          "Email": "mailto:wanghuan@westlake.edu.cn",
+          "Google Scholar": "https://scholar.google.com/citations?user=0-On0y4AAAAJ&hl=en",
+          "GitHub": "https://github.com/mingsun-tse",
+          "LinkedIn": "https://www.linkedin.com/in/huanwangx",
+          "X": "https://twitter.com/huanwangx"
+        }
+      }
+    ]
+  },
+  {
+    "group": "Administrative & Postdoc Staff",
+    "people": [
+      {
+        "name": "Xinjun Lin",
+        "photo": "assets/img/people/xinjun_lin.jpg",
+        "bio": [
+          "Administrative Assistant",
+          "MFA@Goldsmiths, BA@CAA"
+        ],
+        "links": {
+          "Email": "mailto:linxinjun@westlake.edu.cn"
+        }
+      },
+      {
+        "name": "Ying Li",
+        "photo": "assets/img/people/ying_li.jpg",
+        "bio": [
+          "Postdoc Researcher",
+          "PhD@SJTU, Since Jan 2025"
+        ],
+        "links": {
+          "Homepage": "https://neuraliying.github.io/",
+          "Email": "mailto:liying06@westlake.edu.cn",
+          "Google Scholar": "https://scholar.google.com/citations?user=jIkHgFAAAAAJ&hl"
+        }
+      }
+    ]
+  },
+  {
+    "group": "PhD Students",
+    "people": [
+      {
+        "name": "Kele Shao",
+        "photo": "assets/img/people/kele_shao.jpg",
+        "bio": [
+          "Fall 2025 -",
+          "BS@ZJU"
+        ],
+        "links": {
+          "Homepage": "https://cokeshao.github.io/",
+          "Email": "mailto:shaokele@westlake.edu.cn",
+          "Google Scholar": "https://scholar.google.com/citations?user=f4-ER1kAAAAJ&hl=en",
+          "GitHub": "https://github.com/cokeshao"
+        }
+      },
+      {
+        "name": "Keda Tao",
+        "photo": "assets/img/people/keda_tao.jpg",
+        "bio": [
+          "Fall 2025 -",
+          "BS@XDU"
+        ],
+        "links": {
+          "Homepage": "https://kd-tao.github.io",
+          "Email": "mailto:KD.TAO@outlook.com",
+          "Google Scholar": "https://scholar.google.com/citations?user=ek8xaLUAAAAJ&hl=en",
+          "GitHub": "https://github.com/KD-TAO"
+        }
+      },
+      {
+        "name": "Hesong Wang",
+        "photo": "assets/img/people/hesong_wang.jpg",
+        "bio": [
+          "Fall 2025 -",
+          "BS@BUPT"
+        ],
+        "links": {
+          "Homepage": "https://viridisgreen.github.io",
+          "Email": "mailto:viridisgreen27@gmail.com",
+          "GitHub": "https://github.com/viridisGreen",
+          "Google Scholar": "https://scholar.google.com/citations?hl=en&user=Cz6w2swAAAAJ"
+        }
+      },
+      {
+        "name": "Mingluo Su",
+        "photo": "assets/img/people/mingluo_su.jpg",
+        "bio": [
+          "Fall 2026 -",
+          "MS@Beihang",
+          "BS@NWPU"
+        ],
+        "links": {
+          "Homepage": "https://mingluo-su.github.io/",
+          "Email": "mailto:mingluosu0903@gmail.com",
+          "Google Scholar": "https://scholar.google.com/citations?user=OEGnyD8AAAAJ&hl=en",
+          "GitHub": "https://github.com/mingluo-su"
+        }
+      },
+      {
+        "name": "Xueyi Chen",
+        "photo": "assets/img/people/xueyi_chen.png",
+        "bio": [
+          "Fall 2026 -",
+          "MS@CUHK",
+          "BS@FZU"
+        ],
+        "links": {
+          "Homepage": "https://yige24.github.io/",
+          "Email": "mailto:xueyi.chen.2024@gmail.com",
+          "Google Scholar": "https://scholar.google.com/citations?user=SfLuBt8AAAAJ",
+          "GitHub": "https://github.com/YIGE24"
+        }
+      },
+      {
+        "name": "Xin Li",
+        "photo": "assets/img/people/xin_li.jpg",
+        "bio": [
+          "Fall 2027 -",
+          "BS@ZJU"
+        ],
+        "links": {
+          "Homepage": "http://profile.slowist.top/",
+          "Email": "mailto:slowistlee@gmail.com",
+          "GitHub": "https://github.com/Slowist-Lee"
+        }
+      }
+    ]
+  },
+  {
+    "group": "Research Assistants",
+    "people": [
+      {
+        "name": "Junhao Zhu"
+      },
+      {
+        "name": "Liming Mao"
+      },
+      {
+        "name": "Xinwei Niu"
+      }
+    ]
+  },
+  {
+    "group": "Visiting Students",
+    "people": [
+      {
+        "name": "Youssef Ahmed",
+        "note": "BS@Westlake"
+      },
+      {
+        "name": "Linge Du"
+      },
+      {
+        "name": "Xianrui Hou"
+      },
+      {
+        "name": "Zhanyi Lu"
+      },
+      {
+        "name": "Zhihao Qian"
+      },
+      {
+        "name": "Qitong Wang"
+      },
+      {
+        "name": "Zichen Zhao"
+      }
+    ]
+  },
+  {
+    "group": "Alumni",
+    "people": [
+      {
+        "name": "Zhenxin Ai",
+        "url": "https://ai-kunkun.github.io/",
+        "note": "BS@JXUST"
+      },
+      {
+        "name": "Haolei Bai",
+        "url": "https://deadlykitten4.github.io/",
+        "note": "MS@NTU"
+      },
+      {
+        "name": "Wenrui Bao",
+        "note": "MS@NTU"
+      },
+      {
+        "name": "Wenjie Du",
+        "url": "https://kurt232.github.io/",
+        "note": "BS@SCU → MS@NTU"
+      },
+      {
+        "name": "Sicheng Feng",
+        "url": "https://fscdc.github.io/",
+        "note": "BS@NKU → PhD@NUS"
+      },
+      {
+        "name": "Siyong Jian",
+        "url": "https://syjmelody.github.io/",
+        "note": "MS@NJU"
+      },
+      {
+        "name": "Xin Jin",
+        "url": "https://jinxins.github.io/",
+        "note": "MS&BS@CTBU"
+      },
+      {
+        "name": "Lingcheng Kong",
+        "url": "https://www.linkedin.com/in/lingcheng-kong-443624303",
+        "note": "BS@HKUST"
+      },
+      {
+        "name": "Haopeng Li",
+        "url": "https://hp-l33.github.io/",
+        "note": "BS@BUPT → MS@HKUST(GZ)"
+      },
+      {
+        "name": "Boya Liao",
+        "url": "https://boyaliao.github.io/",
+        "note": "MS@ZJU → PhD@UMN"
+      },
+      {
+        "name": "Shiyu Liu"
+      },
+      {
+        "name": "Zhizhen Pan",
+        "url": "https://ddsacu.github.io/",
+        "note": "BS@BUPT"
+      },
+      {
+        "name": "Jiaxuan Ren",
+        "url": "https://github.com/xuan9-9",
+        "note": "BS@UESTC"
+      },
+      {
+        "name": "Hanzhang Shen",
+        "url": "https://hanzhangshen03.github.io",
+        "note": "BS@Cambridge"
+      },
+      {
+        "name": "Haoyu Shen"
+      },
+      {
+        "name": "Yinlong Shen"
+      },
+      {
+        "name": "Zhenyu Sun",
+        "url": "https://zhenyusun-walker.github.io/",
+        "note": "BS@SCUT → PhD@SJTU"
+      },
+      {
+        "name": "Kaiwen Tuo",
+        "url": "https://cfintech.github.io/",
+        "note": "BS@Tongji → PhD@HKUST"
+      },
+      {
+        "name": "Zefang Wang",
+        "url": "https://aden9460.github.io/Zefang-Wang/",
+        "note": "MS@ZJU"
+      },
+      {
+        "name": "Zixu Wang"
+      },
+      {
+        "name": "Fan Wu"
+      },
+      {
+        "name": "Xianzu Wu",
+        "url": "https://xianzuwu.github.io/"
+      },
+      {
+        "name": "Jia Xu",
+        "url": "https://jiaxu0123.github.io/",
+        "note": "BS@BIT"
+      },
+      {
+        "name": "Simin Xu",
+        "url": "https://simmy-x.github.io/"
+      },
+      {
+        "name": "Chun Yang",
+        "url": "https://chuny9743.github.io/",
+        "note": "BS@BIT"
+      },
+      {
+        "name": "Jie Zhang"
+      },
+      {
+        "name": "Shikang Zhang"
+      },
+      {
+        "name": "Yuhua Zheng",
+        "url": "https://pillor9.github.io/",
+        "note": "BS@ZJU"
+      },
+      {
+        "name": "Yufan Zhou",
+        "url": "https://wiserzhou.github.io",
+        "note": "BS@HIT"
+      },
+      {
+        "name": "Junhan Zhu",
+        "url": "https://alrightlone.github.io/",
+        "note": "BS@Westlake"
+      },
+      {
+        "name": "Wenxi Zhu",
+        "note": "BS@Westlake"
+      },
+      {
+        "name": "Dianyuan Zou"
+      }
+    ]
+  }
+]

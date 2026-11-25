@@ -1,0 +1,77 @@
+[
+  {
+    "title": "On the Transfer and Development of Embodied Intelligent Systems",
+    "speaker": "Xilin Chen",
+    "role": "Professor",
+    "affiliation": "Institute of Computing Technology, Chinese Academy of Sciences",
+    "date": "2026-06-23",
+    "time": "14:00–15:30",
+    "abstract": "Embodied intelligence is a bridge and engineering path connecting the physical and mental worlds, and has become an important means for exploring intelligence and its applications. However, the field faces challenges such as a wide variety of embodiments and highly task-dependent settings, which often lead to dependency and over-specialization that constrain progress. The key to overcoming these limitations lies in cross-embodiment transferability and cross-task developmental growth. This talk explores these problems, proposing hierarchical task decomposition and language–embodiment adaptation for transferability, and continual learning for growth. We present recent work probing the feasibility of these ideas, and outline open problems and future directions worth attention.",
+    "photo": "assets/img/talks/xilin_chen.png",
+    "details": [
+      "E10-215, Yungu Campus",
+      "Host: Huan Wang",
+      "Westlake AI Forum (8th) · Language: Chinese"
+    ],
+    "homepage": "https://vipl.ict.ac.cn/people/xlchen/"
+  },
+  {
+    "title": "Spatial Intelligence in Vision-Language Models: What It Is, What Works, and What's Next",
+    "speaker": "Disheng Liu",
+    "role": "Ph.D. Candidate",
+    "affiliation": "Case Western Reserve University",
+    "date": "2025-12-30",
+    "time": "11:00–12:00",
+    "abstract": "Vision-Language Models (VLMs) have achieved remarkable success but exhibit a fundamental deficiency in spatial intelligence, a critical capability for progress in embodied AI, autonomous driving, and spatially coherent generation. This talk provides a systematic review that spans the foundations of spatial intelligence in VLMs, root causes of spatial limitations, enhancement methodologies, evaluation protocols, and real-world applications.",
+    "photo": "assets/img/talks/disheng_liu.jpg",
+    "details": [
+      "Tencent Meeting 682-127-813",
+      "Host: Huan Wang"
+    ],
+    "homepage": "https://dishengll.github.io/"
+  },
+  {
+    "title": "Pursuing the Nature of Intelligence",
+    "speaker": "Yi Ma",
+    "role": "Chair Professor",
+    "affiliation": "School of CDS, Hong Kong University & EECS Department, UC Berkeley",
+    "date": "2025-10-14",
+    "time": "15:30–17:00",
+    "abstract": "In this talk, we will try to clarify different levels and mechanisms of intelligence from historical, scientific, mathematical, and computational perspective. From the evolution of intelligence in nature, from phylogenetic, to ontogenetic, societal, and to scientific intelligence, we will try to shed light on how to understand the true nature of the seemingly dramatic advancements in the technologies of machine intelligence in the past decade. We achieve this goal by developing a principled mathematical framework to explain deductively the practices of deep learning from the first principle of pursuing low-dimensional distributions.",
+    "photo": "assets/img/talks/yi_ma.png",
+    "details": [
+      "E10-201, Yungu Campus",
+      "Host: Huan Wang, Yandong Wen"
+    ],
+    "homepage": "https://people.eecs.berkeley.edu/~yima/"
+  },
+  {
+    "title": "3D Generative Models through the Lens of Coordinate Systems",
+    "speaker": "Yiyi Liao",
+    "role": "Assistant Professor",
+    "affiliation": "Zhejiang University",
+    "date": "2025-09-04",
+    "time": "16:00–17:00",
+    "abstract": "3D content offers advantages such as real-time interactivity and plays an important role in AR/VR applications, where both generation and compression are critical for practical use. This talk explores 3D content generation from the perspective of coordinate systems, highlighting the distinctions and applications of absolute, observer, and intrinsic coordinates. We present object generation methods developed in the intrinsic coordinate system and scene generation approaches formulated in the observer coordinate system, providing a structured view of how coordinate choices shape 3D generative modeling.",
+    "photo": "assets/img/talks/yiyi_liao.png",
+    "details": [
+      "Room E10-215, 2F, Yungu Campus",
+      "Host: Huan Wang"
+    ],
+    "homepage": "https://yiyiliao.github.io/"
+  },
+  {
+    "title": "Recent Results on Multimodal Foundation Models",
+    "speaker": "Ming-Hsuan Yang",
+    "role": "Professor",
+    "affiliation": "University of California, Merced",
+    "date": "2025-08-09",
+    "time": "13:30–14:00",
+    "abstract": "Recent advances in vision and language models have significantly improved visual understanding and generation tasks. In this talk, I will present our latest research on designing effective tokenizers for transformers and our efforts to adapt frozen large language models for diverse vision tasks. These tasks include visual classification, video-text retrieval, visual captioning, visual question answering, visual grounding, video generation, stylization, outpainting, and video-to-audio conversion. If time permits, I will also discuss our recent findings on learning diffusion models and dynamic 3D vision.",
+    "photo": "assets/img/talks/ming_hsuan_yang.jpg",
+    "details": [
+      "Host: Huan Wang"
+    ],
+    "homepage": "https://faculty.ucmerced.edu/mhyang/"
+  }
+]

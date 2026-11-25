@@ -1,0 +1,76 @@
+[
+  {
+    "id": "20260925-NeurIPS-2026",
+    "date": "2026-09-25",
+    "label": "NeurIPS'26",
+    "text": "<strong>One paper</strong> accepted to NeurIPS 2026! Congrats to Siyong (RankE) and all collaborators!"
+  },
+  {
+    "id": "20260622-ECCV-2026",
+    "date": "2026-06-22",
+    "label": "ECCV'26",
+    "text": "<strong>Three papers</strong> accepted to ECCV 2026! Congrats to Kejia (TARS), Ying (LISA), Zefang (EVAR), and all collaborators! <a href=\"@/highlights/eccv-2026/index.html\">Explore our ECCV 2026 highlights.</a>"
+  },
+  {
+    "id": "20260508-ICML-2026",
+    "date": "2026-05-08",
+    "label": "ICML'26",
+    "text": "<strong>Four papers</strong> accepted to ICML 2026! Congrats to Ying (ARC-Decode &amp; Prism-MoE), Wenjie (RLKV), Kaiwen (SparseSSM), and all collaborators! <a href=\"@/highlights/icml-2026/index.html\">Explore our ICML 2026 highlights.</a>"
+  },
+  {
+    "id": "20260222-CVPR-2026",
+    "date": "2026-02-22",
+    "label": "CVPR'26",
+    "text": "<strong>Six papers</strong> accepted to CVPR 2026! Congrats to Keda (OmniZip), Xueyi (StreamingTOM), Sicheng (ReasonMap), Hesong (EarlyTom), Boya (PJD), Zhizhen (QVGGT), and all collaborators! <a href=\"@/highlights/cvpr-2026/index.html\">Explore our CVPR 2026 highlights.</a>"
+  },
+  {
+    "id": "20260126-TMLR-2026",
+    "date": "2026-01-26",
+    "label": "TMLR'26",
+    "text": "Our <strong>first</strong> systematic survey on multimodal long-context token compression has been accepted to TMLR! Congrats to Kele, Keda, and all collaborators!",
+    "arxiv": "2507.20198",
+    "code": "https://github.com/cokeshao/Awesome-Multimodal-Token-Compression"
+  },
+  {
+    "id": "20260126-ICLR-2026",
+    "date": "2026-01-26",
+    "label": "ICLR'26",
+    "text": "<strong>Four papers</strong> accepted to ICLR 2026! Congrats to Junhan (OBS-Diff), Xin (MergeMix), Sicheng (RewardMap), Haopeng (ARPG), and all collaborators! Notably, Junhan Zhu is the first Westlake undergraduate to publish at a top ML/AI venue as a sole first author!"
+  },
+  {
+    "id": "20260122-CPAL-2026",
+    "date": "2026-01-22",
+    "label": "CPAL'26",
+    "text": "<strong>Two papers</strong> accepted to CPAL 2026, including one <strong>oral</strong>! Congrats to Mingluo (ROSE), Haolei (ERC-SVD), and all collaborators!"
+  },
+  {
+    "id": "20251101-Funds-CAAI-AntGroup",
+    "date": "2025-11-01",
+    "label": "Funding",
+    "text": "Grateful to receive the CAAI &amp; Ant Group Research Fund (CAAI-蚂蚁科研基金). Thanks to CAAI and Ant Group for the support!"
+  },
+  {
+    "id": "20250926-NeurIPS-2025",
+    "date": "2025-09-26",
+    "label": "NeurIPS'25",
+    "text": "<strong>Three papers</strong> accepted to NeurIPS 2025! Congrats to Kele (HoliTom), Kejia (Poison as Cure), Ying (FreqExit), and all collaborators!"
+  },
+  {
+    "id": "20250626-Award-KedaTao-XinruiAward",
+    "date": "2025-06-26",
+    "label": "Award",
+    "text": "Congrats to <a href=\"https://kd-tao.github.io/\">Keda Tao</a> for receiving the 2025 Westlake University Xinrui Award (西湖大学博士研究生新锐奖), one of only <strong>2 recipients</strong> in AI among all 2025 Fall PhD students in the School of Engineering!"
+  },
+  {
+    "id": "20250201-CVPR-2025",
+    "date": "2025-02-26",
+    "label": "CVPR'25",
+    "text": "<strong>One paper</strong> accepted to CVPR 2025! Congrats to Keda (DyCoke) and all collaborators!"
+  },
+  {
+    "id": "20240601-NewStart-WestlakeUniversity",
+    "date": "2024-06-01",
+    "label": "New Start",
+    "text": "Our lab is established! Dr. Huan Wang joins <a href=\"https://www.westlake.edu.cn/\">Westlake University</a> as a tenure-track assistant professor."
+  }
+]
